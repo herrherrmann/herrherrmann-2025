@@ -1,19 +1,23 @@
 ---
 import { getCollection } from 'astro:content'
+import H2 from '../components/H2.astro'
 import Layout from '../layouts/Layout.astro'
+import BlogList from '../components/BlogList.astro'
+import Spacer from '../components/Spacer.astro'
 
 const posts = await getCollection('blog')
 ---
 
 <Layout>
-    <h1>Blog</h1>
-    <ul>
-        {
-            posts.map((post) => (
-                <li>
-                    <a href={`/blog/${post.data.slug}`}>{post.data.title}</a>
-                </li>
-            ))
-        }
-    </ul>
+    <p>Hello, I’m Sebastian from Berlin, Germany. 👋</p>
+    <Spacer size="1rem" />
+    <H2>Blog posts</H2>
+    <Spacer size="1rem" />
+    <BlogList posts={posts} />
 </Layout>
+
+<style>
+    p {
+        margin: 0;
+    }
+</style>

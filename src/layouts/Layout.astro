@@ -1,3 +1,10 @@
+---
+import '@fontsource-variable/chivo'
+import '@fontsource/space-mono'
+import Content from '../components/Content.astro'
+import Header from '../components/Header.astro'
+---
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -8,7 +15,10 @@
         <title>HerrHerrmann</title>
     </head>
     <body>
-        <slot />
+        <Header />
+        <Content>
+            <slot />
+        </Content>
     </body>
 </html>
 
@@ -18,5 +28,51 @@
         margin: 0;
         width: 100%;
         height: 100%;
+        font-family: 'Chivo Variable', sans-serif;
+        font-size: var(--font-size-regular);
+        line-height: var(--line-height-default);
+        color: var(--text-color);
+        background-color: var(--light-color);
+    }
+</style>
+
+<style is:global>
+    :root {
+        --font-family-content: 'Chivo Variable', sans-serif;
+        --font-family-headlines: 'Space Mono', monospace;
+        --font-size-regular: 17px;
+        --line-height-default: 1.5;
+        --font-weight-normal: 400;
+        --font-weight-bold: 700;
+
+        --page-max-width: 800px;
+        --page-padding: 0.75rem;
+
+        --light-color: #fdf6e9;
+        --text-color: #0d1f2d;
+        --accent-color: #08bdbd;
+        --selection-color: hsl(from var(--accent-color) h s l / 0.2);
+
+        @media (prefers-color-scheme: dark) {
+            --light-color: #355070;
+            --text-color: #efefef;
+        }
+    }
+    a {
+        color: var(--text-color);
+        word-break: break-word;
+        text-decoration: underline;
+        text-decoration-color: hsl(from var(--accent-color) h s l / 0.7);
+        text-decoration-thickness: 0.12em;
+        text-underline-offset: 0.18em;
+    }
+    a:hover {
+        text-decoration-color: hsl(from var(--accent-color) h s l);
+    }
+    ::selection {
+        background-color: var(--selection-color);
+    }
+    ::-moz-selection {
+        background-color: var(--selection-color);
     }
 </style>

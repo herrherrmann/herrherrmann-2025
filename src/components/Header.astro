@@ -1,0 +1,70 @@
+---
+const { pathname } = Astro.url
+---
+
+<header>
+    <div class="inner">
+        <h1><a href="/" class="title">Herr Herrmann</a></h1>
+        <nav aria-label="Main menu">
+            <ul class="menu">
+                <li>
+                    <a
+                        href="/blog"
+                        class:list={['menu-item', { active: pathname === '/' || pathname.startsWith('/blog') }]}
+                    >
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="/projects" class:list={['menu-item', { active: pathname.startsWith('/projects') }]}>
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="/about" class:list={['menu-item', { active: pathname === '/about' }]}>About</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<style>
+    header {
+        width: 100%;
+    }
+    .inner {
+        max-width: var(--page-max-width);
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+        font-family: var(--font-family-headlines);
+    }
+    .title {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: var(--font-family-headlines);
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 0rem 1rem;
+    }
+    .menu-item {
+        color: var(--text-color);
+        text-decoration: none;
+    }
+    .active {
+        text-decoration: underline;
+        text-decoration-thickness: 0.1em;
+        text-underline-offset: 0.13em;
+    }
+</style>

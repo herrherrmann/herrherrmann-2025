@@ -11,12 +11,6 @@ const blog = defineCollection({
         title: z.string(),
         slug: z.string(),
         releaseDate: z.coerce.date(),
-        heroImage: z
-            .object({
-                src: z.string(),
-                alt: z.string(),
-            })
-            .optional(),
         tags: z.array(z.enum(['Space Probe', 'Mars Rover', 'Comet Lander'])),
     }),
 })
