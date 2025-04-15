@@ -5,7 +5,7 @@ import Layout from '../layouts/Layout.astro'
 import BlogList from '../components/BlogList.astro'
 import Spacer from '../components/Spacer.astro'
 
-const posts = await getCollection('blog')
+const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
 ---
 
 <Layout>

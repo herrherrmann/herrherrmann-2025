@@ -2,12 +2,13 @@
 import { getCollection, render } from 'astro:content'
 import H2 from '../../components/H2.astro'
 import Layout from '../../layouts/Layout.astro'
+import { Image } from 'astro:assets'
 
 export async function getStaticPaths() {
     const posts = await getCollection('blog')
     return posts.map((post) => ({
         params: {
-            slug: post.data.slug,
+            slug: post.id,
         },
         props: {
             post,
@@ -21,5 +22,6 @@ const { Content } = await render(post)
 
 <Layout>
     <H2>{post.data.title}</H2>
+    {post.data.coverImage ? <Image src={post.data.coverImage} alt={post.data.coverImageAlt || ''} /> : null}
     <Content />
 </Layout>

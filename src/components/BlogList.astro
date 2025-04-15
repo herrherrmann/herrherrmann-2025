@@ -16,8 +16,8 @@ function formatDate(date: Date) {
     {
         posts.map((post) => (
             <li>
-                <a href={`/blog/${post.data.slug}`}>{post.data.title}</a>
-                <time datetime={formatDate(post.data.releaseDate)}>{formatDate(post.data.releaseDate)}</time>
+                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+                <time datetime={formatDate(post.data.date)}>{formatDate(post.data.date)}</time>
             </li>
         ))
     }
