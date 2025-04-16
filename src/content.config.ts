@@ -51,4 +51,24 @@ const blog = defineCollection({
         }),
 })
 
-export const collections = { blog }
+const projects = defineCollection({
+    loader: glob({
+        pattern: '**/*.md',
+        base: './src/data/projects',
+    }),
+    schema: ({ image }) =>
+        z.object({
+            title: z.string(),
+            description: z.string(),
+            category: z.enum(['software', 'music']),
+            status: z.enum(['active', 'inactive']),
+            date: z.coerce.date(),
+            image: image().optional(),
+            imageAlt: z.string().optional(),
+        }),
+})
+
+export const collections = {
+    blog,
+    projects,
+}

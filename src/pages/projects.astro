@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content'
+import H2 from '../components/H2.astro'
+import ProjectList from '../components/ProjectList.astro'
+import Spacer from '../components/Spacer.astro'
+import Layout from '../layouts/Layout.astro'
+
+const projects = await getCollection('projects')
+console.log('projects: ', projects)
+const sortedProjects = projects.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+---
+
+<Layout>
+    <H2>Projects</H2>
+    <p>
+        I’ve been building websites for quite a while now. Originally starting with simple HTML and CSS in the early
+        2000s, I’ve soon started leveraging WordPress and eventually JavaScript frameworks like AngularJS and React to
+        build responsive and intuitive web apps. Nowadays, my favorite stack revolves around TypeScript, React and
+        server-side rendering with Next.js – Although I definitely enjoy vanilla JavaScript and Vue.js, too!
+    </p>
+    <p>
+        You can find out more about my projects on <a href="https://github.com/herrherrmann/">GitHub</a>, or by looking
+        at the selection of projects below.
+    </p>
+    <Spacer size="1rem" />
+    <ProjectList projects={sortedProjects} />
+</Layout>

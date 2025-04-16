@@ -4,21 +4,21 @@ const { pathname } = Astro.url
 
 <header>
     <div class="inner">
-        <h1><a href="/" class="title">Herr Herrmann</a></h1>
+        <h1>
+            <a href="/" class="title">Herr Herrmann</a>
+        </h1>
         <nav aria-label="Main menu">
             <ul class="menu">
                 <li>
-                    <a
-                        href="/blog"
-                        class:list={['menu-item', { active: pathname === '/' || pathname.startsWith('/blog') }]}
-                    >
-                        Blog
-                    </a>
+                    <a href="/" class:list={['menu-item', { active: pathname === '/' }]}>Blog</a>
                 </li>
                 <li>
                     <a href="/projects" class:list={['menu-item', { active: pathname.startsWith('/projects') }]}>
                         Projects
                     </a>
+                </li>
+                <li>
+                    <a href="/photos" class:list={['menu-item', { active: pathname === '/photos' }]}>Photos</a>
                 </li>
                 <li>
                     <a href="/about" class:list={['menu-item', { active: pathname === '/about' }]}>About</a>
@@ -31,9 +31,11 @@ const { pathname } = Astro.url
 <style>
     header {
         width: 100%;
+        padding: var(--page-padding) 0;
     }
     .inner {
         max-width: var(--page-max-width);
+        padding: 0 var(--page-padding);
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -42,7 +44,7 @@ const { pathname } = Astro.url
     }
     h1 {
         font-size: 1.5rem;
-        font-family: var(--font-family-headlines);
+        margin: 0;
     }
     .title {
         color: var(--text-color);

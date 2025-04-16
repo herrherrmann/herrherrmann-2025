@@ -1,7 +1,6 @@
 ---
 layout: ../layouts/Layout.astro
 title: "Uses"
-date: 2024-04-04
 ---
 
 The hardware and software I’m using for projects, work, and free time.
