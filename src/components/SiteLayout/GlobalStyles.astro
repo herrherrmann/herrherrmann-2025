@@ -12,9 +12,11 @@
         --page-max-width: 800px;
         --page-padding: 0.75rem;
 
-        --light-color: #fdf6e9;
-        --text-color: #0d1f2d;
-        --accent-color: #08bdbd;
+        --light-color: #eae6db;
+        --text-color: #505157;
+        --accent-color: #f06c02;
+        --accent-color-dark: #a05f2d;
+        --accent-color-subdued: hsl(from var(--accent-color) h s l / 0.4);
         --selection-color: hsl(from var(--accent-color) h s l / 0.2);
 
         @media (prefers-color-scheme: dark) {
@@ -35,19 +37,27 @@
     p {
         margin: 0;
     }
-    p + p {
+    :where(p, figure) + p {
         margin: 0.75rem 0 0 0;
     }
     a {
         color: var(--text-color);
         word-break: break-word;
         text-decoration: underline;
-        text-decoration-color: hsl(from var(--accent-color) h s l / 0.7);
+        text-decoration-color: var(--accent-color-subdued);
         text-decoration-thickness: 0.12em;
         text-underline-offset: 0.18em;
+        transition: text-decoration 100ms;
     }
     a:hover {
-        text-decoration-color: hsl(from var(--accent-color) h s l);
+        text-decoration-color: var(--accent-color);
+    }
+    figure {
+        margin: 0;
+    }
+    figcaption {
+        text-align: center;
+        font-size: var(--font-size-small);
     }
     ::selection {
         background-color: var(--selection-color);
