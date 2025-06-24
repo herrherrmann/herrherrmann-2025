@@ -4,6 +4,7 @@ import '@fontsource/space-mono'
 import H2 from '../components/H2.astro'
 import GlobalStyles from '../components/SiteLayout/GlobalStyles.astro'
 import Header from '../components/SiteLayout/Header.astro'
+import Footer from '../components/SiteLayout/Footer.astro'
 import Main from '../components/SiteLayout/Main.astro'
 
 const { frontmatter } = Astro.props
@@ -20,11 +21,14 @@ const { frontmatter } = Astro.props
     </head>
     <body>
         <GlobalStyles />
-        <Header />
-        <Main>
-            {frontmatter?.title ? <H2>{frontmatter.title}</H2> : null}
-            <slot />
-        </Main>
+        <div class="layout">
+            <Header />
+            <Main>
+                {frontmatter?.title ? <H2>{frontmatter.title}</H2> : null}
+                <slot />
+            </Main>
+            <Footer />
+        </div>
     </body>
 </html>
 
@@ -39,5 +43,10 @@ const { frontmatter } = Astro.props
         line-height: var(--line-height-default);
         color: var(--text-color);
         background-color: var(--light-color);
+    }
+    .layout {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
 </style>
