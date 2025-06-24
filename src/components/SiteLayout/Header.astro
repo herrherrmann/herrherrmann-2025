@@ -32,6 +32,9 @@ const { pathname } = Astro.url
     header {
         width: 100%;
         padding: var(--page-padding) 0;
+        border-bottom: 1px solid var(--accent-color);
+        background-color: hsl(from var(--accent-color) h s l / 0.1);
+        margin-bottom: 1.5rem;
     }
     .inner {
         max-width: var(--page-max-width);
@@ -44,6 +47,7 @@ const { pathname } = Astro.url
     }
     h1 {
         font-size: 1.5rem;
+        line-height: 1.1;
         margin: 0;
     }
     .title {
@@ -58,15 +62,20 @@ const { pathname } = Astro.url
         display: flex;
         justify-content: flex-end;
         flex-wrap: wrap;
-        gap: 0rem 1rem;
+        gap: 0rem 0.25rem;
     }
     .menu-item {
         color: var(--text-color);
+        line-height: 1;
         text-decoration: none;
+        padding: 0.25rem 0.4rem;
+        border-radius: 4px;
+        transition: background-color 100ms;
+    }
+    .menu-item:hover:not(.active) {
+        background-color: hsl(from var(--accent-color) h s l / 0.2);
     }
     .active {
-        text-decoration: underline;
-        text-decoration-thickness: 0.1em;
-        text-underline-offset: 0.13em;
+        background-color: var(--accent-color-subdued);
     }
 </style>
