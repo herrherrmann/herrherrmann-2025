@@ -5,7 +5,7 @@ const { pathname } = Astro.url
 <header>
     <div class="inner">
         <h1>
-            <a href="/" class="title">Herr Herrmann</a>
+            <a href="/" class="title"><span class="logo" role="presentation"></span>Herr Herrmann</a>
         </h1>
         <nav aria-label="Main menu">
             <ul class="menu">
@@ -53,6 +53,22 @@ const { pathname } = Astro.url
     .title {
         color: var(--text-color);
         text-decoration: none;
+        word-spacing: -0.4em;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+    }
+    .title:hover {
+        color: var(--text-color-active);
+    }
+    .logo {
+        display: block;
+        width: 0.8rem;
+        height: 0.8rem;
+        margin-top: 0.1em;
+        margin-right: 0.3em;
+        background-color: var(--accent-color);
+        border-radius: 50%;
     }
     .menu {
         list-style: none;
@@ -69,13 +85,15 @@ const { pathname } = Astro.url
         line-height: 1;
         text-decoration: none;
         padding: 0.25rem 0.4rem;
-        border-radius: 4px;
+        border-radius: 6px;
         transition: background-color 100ms;
     }
     .menu-item:hover:not(.active) {
         background-color: hsl(from var(--accent-color) h s l / 0.2);
+        color: var(--text-color-active);
     }
     .active {
         background-color: var(--accent-color-subdued);
+        color: var(--text-color-active);
     }
 </style>

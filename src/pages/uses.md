@@ -78,7 +78,7 @@ Last update: 2025-04-15
 
 ## Camera
 
-See [photography page](https://herrherrmann.net/photography/)!
+See [photography page](/photos)!
 
 ## More
 

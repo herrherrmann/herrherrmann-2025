@@ -15,24 +15,30 @@
         --light-color: #eae6db;
         /* --light-color-alt: #e0dcd1; */
         --text-color: #505157;
+        --text-color-active: #3b3b40;
         --accent-color: #f06c02;
         --accent-color-dark: #a05f2d;
         --accent-color-subdued: hsl(from var(--accent-color) h s l / 0.4);
         --selection-color: hsl(from var(--accent-color) h s l / 0.2);
 
         @media (prefers-color-scheme: dark) {
-            --light-color: #355070;
+            --light-color: #3b3b40;
             --text-color: #efefef;
+            --text-color-active: #ffffff;
+            --accent-color: #f06c02;
+            --accent-color-dark: #a05f2d;
+            --accent-color-subdued: hsl(from var(--accent-color) h s l / 0.4);
+            --selection-color: hsl(from var(--accent-color) h s l / 0.2);
         }
     }
     h1 {
         font-family: var(--font-family-headlines);
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         margin: 2rem 0 0.5rem 0;
     }
     h2 {
         font-family: var(--font-family-headlines);
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin: 2rem 0 0.5rem 0;
     }
     h3 {
@@ -40,11 +46,17 @@
         font-size: 1.2rem;
         margin: 2rem 0 0.5rem 0;
     }
-    p {
-        margin: 0;
+    h4 {
+        font-family: var(--font-family-headlines);
+        font-size: 1rem;
+        font-weight: var(--font-weight-bold);
+        margin: 1rem 0 0.2rem 0;
     }
-    :where(p, figure) + p {
-        margin: 0.75rem 0 0 0;
+    p {
+        margin: 0 0 0.75rem 0;
+    }
+    p:last-child {
+        margin: 0;
     }
     a {
         color: var(--text-color);
@@ -58,16 +70,26 @@
     a:hover {
         text-decoration-color: var(--accent-color);
     }
-    ul {
-        margin: 0;
+    ul,
+    ol {
+        margin: 0 0 0.75rem 0;
         padding: 0 0 0 1rem;
     }
-    figure {
+    ul ul,
+    ol ol {
         margin: 0;
+    }
+    figure {
+        margin: 0 0 0.75rem 0;
     }
     figcaption {
         text-align: center;
         font-size: var(--font-size-small);
+    }
+    blockquote {
+        margin: 1rem 0 1rem 0;
+        padding: 0.25rem 0 0.25rem 1rem;
+        border-left: 2px solid hsl(from var(--text-color) h s l / 0.25);
     }
     ::selection {
         background-color: var(--selection-color);
