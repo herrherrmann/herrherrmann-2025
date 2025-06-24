@@ -30,6 +30,7 @@ const { Content } = await render(post)
                     alt={post.data.coverImageAlt || ''}
                     layout="constrained"
                     height={350}
+                    loading="eager"
                 />
             </div>
         ) : null
