@@ -20,7 +20,7 @@ The Ableton Live controller of my dreams would certainly feature elements that a
 
 ## Inspiration from Akai APC40 mkII
 
-![](images/APC40mkIII_ortho_web_lg.png)
+![Akai APC40 mkII](images/APC40mkIII_ortho_web_lg.png)
 
 - LED-encoded rotary knobs that indicate the currently set values – I can’t believe how few controllers are using those nowadays
 - Dedicated buttons for activating/arming/solo’ing tracks (I don’t care about the A|B button)
@@ -30,7 +30,7 @@ The Ableton Live controller of my dreams would certainly feature elements that a
 
 ## Inspiration from Ableton Push 2
 
-![](images/Ableton-Push-2-800x534.png)
+![Albeton Push 2](images/Ableton-Push-2-800x534.png)
 
 - The Ableton integration (managing clips, tracks, device parameters etc.) – basically being able to play and experiment without using the laptop screen
 - A small screen that shows which parameters are currently being mapped to the rotary encoders (doesn’t even have to be as fancy as in the second Ableton Push, as long as it’s well-readable)

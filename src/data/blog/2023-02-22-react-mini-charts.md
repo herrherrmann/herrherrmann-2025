@@ -1,9 +1,9 @@
 ---
 title: "React mini charts"
 date: 2023-02-22
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "javascript"
   - "open-source"
   - "react"
@@ -23,12 +23,9 @@ As the name suggests, it’s a small library of chart components for React. So f
 ![](images/react-mini-charts-PieChart-800x458.jpg)
 
 <figcaption>
-
 The pie chart component, as seen in the component library.  
 The “JSX” tab shows the code to generate the component.
-
 </figcaption>
-
 </figure>
 
 It took me a few hours to set up the repo how I wanted it, but now it has some cool features:

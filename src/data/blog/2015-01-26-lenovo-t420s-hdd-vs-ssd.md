@@ -1,9 +1,9 @@
 ---
 title: "Lenovo T420S: HDD vs. SSD"
 date: 2015-01-26
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "hardware"
   - "review"
 ---
@@ -16,6 +16,6 @@ If you consider giving your laptop (or desktop computer) a speed boost, switchin
 
 Another surprising (or rather annoying) fact though: Windows 8.1 took an awefully long time to finish doing random stuff like installing apps (that nobody likes) on its initial launch. The installation that happened before with a bootable USB stick only took a few minutes though! Hopefully Microsoft will streamline this process for [Windows 10](https://en.wikipedia.org/wiki/Windows_10) and maybe let users decide if they want bloatware like "Contacts", "Calendar" and "News". Aside from being a usability nightmare, Windows 8.1 is at least a fast and reliable operating system.
 
-[![You'll see this for hours, days or even months.](images/windows-8.1-getting-apps-ready-500x375.png)](http://herrherrmann.net/wp-content/uploads/2015/01/windows-8.1-getting-apps-ready.png)
+![You’ll see this for hours, days or even months.](images/windows-8.1-getting-apps-ready-500x375.png)
 
 **Update:** Changed "ExpressCard" to "UltraBay" (thanks to Felix for the hint).

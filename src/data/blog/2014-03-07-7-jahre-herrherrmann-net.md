@@ -1,9 +1,9 @@
 ---
 title: "7 Jahre HerrHerrmann.net!"
 date: 2014-03-07
-categories: 
+categories:
   - "de"
-tags: 
+tags:
   - "design"
   - "de"
   - "herrherrmann"
@@ -13,4 +13,4 @@ Seit 7 Jahren gibt es nun diese Seite! In 2007 startete ich bastArt, mittlerweil
 
 Hier eine kleine Jubiläumsübersicht:
 
-[![HerrHerrmann.net Jubiläum](images/anniversary1-500x500.jpg)](http://herrherrmann.net/wp-content/uploads/2014/03/anniversary1.jpg)
+![HerrHerrmann.net Jubiläum](images/anniversary1-500x500.jpg)

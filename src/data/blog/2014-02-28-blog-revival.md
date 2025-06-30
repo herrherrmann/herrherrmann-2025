@@ -1,9 +1,9 @@
 ---
 title: "Blog-Revival"
 date: 2014-02-28
-categories: 
+categories:
   - "de"
-tags: 
+tags:
   - "design"
   - "de"
   - "herrherrmann"
@@ -13,4 +13,4 @@ Statt einer langweiligen Newssektion möchte ich in einem kleinen persönlichen 
 
 Schauen wir mal, was draus wird! Einige Ideen sind bereits notiert ...
 
-[![Blognotizen](images/blognotizen1-500x375.jpg)](http://herrherrmann.net/wp-content/uploads/2014/02/blognotizen1.jpg)
+![Blognotizen](images/blognotizen1-500x375.jpg)

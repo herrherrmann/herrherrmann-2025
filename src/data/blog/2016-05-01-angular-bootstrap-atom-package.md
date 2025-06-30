@@ -1,9 +1,9 @@
 ---
 title: "My first Atom package: Angular-Bootstrap"
 date: 2016-05-01
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "atom"
   - "extension"
   - "javascript"
@@ -15,4 +15,4 @@ For the past year I've been using [Atom](https://atom.io/) on a nearly daily bas
 
 So – if you're one of its users – thanks for using my package and don't hesitate to leave feedback in the [GitHub repo](https://github.com/herrherrmann/angular-bootstrap)!
 
-\[caption id="" align="aligncenter" width="480"\]![](images/uib-modal-demo.gif) The Modal snippet/auto-completion.\[/caption\]
+![The Modal snippet/auto-completion.](images/uib-modal-demo.gif)
