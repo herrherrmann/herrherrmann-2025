@@ -7,17 +7,41 @@ import Header from '../components/SiteLayout/Header.astro'
 import Footer from '../components/SiteLayout/Footer.astro'
 import Main from '../components/SiteLayout/Main.astro'
 
-const { frontmatter } = Astro.props
+interface Props {
+    pageTitle: string
+    pageDescription?: string
+    ogImage?: string
+    ogType?: 'website' | 'article'
+    /** e.g. "2024-12-01T09:33:20+00:00" */
+    ogArticlePublishedTime?: string
+    // TODO: Properly inherit this type from Astro.
+    frontmatter?: {
+        title: string
+    }
+}
+
+const { pageTitle, pageDescription, ogImage, ogType = 'website', ogArticlePublishedTime, frontmatter } = Astro.props
+const siteName = 'Herr Herrmann'
+const fullTitle = [pageTitle, siteName].filter(Boolean).join(' – ')
 ---
 
 <!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{fullTitle}</title>
+        {pageDescription && <meta name="description" content={pageDescription} />}
+        <meta property="og:title" content={fullTitle} />
+        {pageDescription && <meta property="og:description" content={pageDescription} />}
+        <meta property="og:type" content={ogType} />
+        {ogImage && <meta property="og:image" content={ogImage} />}
+        {ogArticlePublishedTime && <meta property="article:published_time" content={ogArticlePublishedTime} />}
+        <meta property="og:site_name" content={siteName} />
+        <meta property="og:locale" content="en_US" />
         <meta name="generator" content={Astro.generator} />
-        <title>HerrHerrmann</title>
+        <meta name="author" content="Sebastian Herrmann" />
     </head>
     <body>
         <GlobalStyles />

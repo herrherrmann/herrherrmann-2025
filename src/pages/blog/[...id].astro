@@ -21,7 +21,8 @@ const { post } = Astro.props
 const { Content } = await render(post)
 ---
 
-<Layout>
+<!-- TODO: Add pageDescriptions for all pages. -->
+<Layout pageTitle={post.data.title}>
     <H2>{post.data.title}</H2>
     {
         post.data.coverImage ? (

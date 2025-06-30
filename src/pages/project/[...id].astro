@@ -20,7 +20,7 @@ const { project } = Astro.props
 const { Content } = await render(project)
 ---
 
-<Layout>
+<Layout pageTitle={project.data.title}>
     <H2>{project.data.title}</H2>
     {project.data.image ? <Image src={project.data.image} alt={project.data.imageAlt || ''} /> : null}
     <Content />
