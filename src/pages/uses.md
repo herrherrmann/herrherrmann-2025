@@ -5,7 +5,7 @@ title: "Uses"
 
 The hardware and software I’m using for projects, work, and free time.
 
-Last update: 2025-04-15
+Last update: 30 June 2025
 
 ## Hardware
 
@@ -71,7 +71,7 @@ Last update: 2025-04-15
 
 ### Tech stack (incomplete)
 - This site:
-    - WordPress with [custom theme](https://github.com/herrherrmann/silver-ratio)
+    - Astro
     - Hosting: Netcup
 - Frontend development:
     - TypeScript with React/Vue.js
