@@ -3,6 +3,7 @@ import { Image } from 'astro:assets'
 import { getCollection, render } from 'astro:content'
 import H2 from '../../components/H2.astro'
 import Layout from '../../layouts/Layout.astro'
+import { formatDatePretty } from '../../services/date'
 import { getBlogPath } from '../../services/url'
 
 export async function getStaticPaths() {
@@ -24,6 +25,9 @@ const { Content } = await render(post)
 <!-- TODO: Add pageDescriptions for all pages. -->
 <Layout pageTitle={post.data.title}>
     <H2>{post.data.title}</H2>
+    <p>
+        <time datetime={post.data.date.toISOString()}>{formatDatePretty(post.data.date)}</time>
+    </p>
     {
         post.data.coverImage ? (
             <div class="coverImage">
