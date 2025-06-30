@@ -1,9 +1,9 @@
 ---
 title: "A re-design."
 date: 2015-09-03
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "design"
   - "herrherrmann"
   - "web"

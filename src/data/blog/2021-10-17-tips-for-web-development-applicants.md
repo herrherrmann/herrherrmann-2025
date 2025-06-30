@@ -1,9 +1,9 @@
 ---
 title: "Tips for web development applicants"
 date: 2021-10-17
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "software-development"
 ---
 

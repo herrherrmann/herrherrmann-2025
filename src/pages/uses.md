@@ -14,12 +14,13 @@ Last update: 30 June 2025
 - Apple Magic Trackpad
 - Display: LG 27UN83A
 - Headphones:
-    - AirPods Pro
-    - Audio-Technica ATH-M50x
-    - Shure SE215
+  - AirPods Pro
+  - Audio-Technica ATH-M50x
+  - Shure SE215
 - iPhone 12 Mini
 
 ## Everyday software
+
 - Firefox (main browser)
 - Vivaldi and Safari (secondary browsers)
 - Apple Mail (with Fastmail)
@@ -32,6 +33,7 @@ Last update: 30 June 2025
 - Mullvad VPN
 
 ## Productivity
+
 - BusyCal (calendar and to-dos)
 - Things (to-dos)
 - Raycast (Spotlight replacement and multi-tool)
@@ -39,6 +41,7 @@ Last update: 30 June 2025
 - Notion (notes and databases)
 
 ## Multimedia
+
 - Apple Music (main music player)
 - Bandcamp, BBC Sounds, Spotify (secondary music players)
 - NepTunes and Finale (scrobbling to last.fm)
@@ -49,16 +52,19 @@ Last update: 30 June 2025
 - VLC Player (video player)
 
 ## Social media
+
 - [elk.zone](https://elk.zone/) and Mona (Mastodon clients)
 - Octal (Hacker News iOS client)
 
 ## Design & photo editing
+
 - Affinity Photo/Designer/Publisher (design and photo editing)
 - Capture One (photo editing)
 - Apple Photos (photo backup and sync)
 - Optimage (image resizing/optimization)
 
 ## Software development
+
 - Editor: VS Code with [many extensions and customizations](https://github.com/herrherrmann/vs-code-setup/)
 - Terminal: iTerm
 - Shell: zsh (with oh-my-zsh)
@@ -70,11 +76,12 @@ Last update: 30 June 2025
 - Database clients: Postico and TablePlus
 
 ### Tech stack (incomplete)
+
 - This site:
-    - Astro
-    - Hosting: Netcup
+  - Astro
+  - Hosting: Netcup
 - Frontend development:
-    - TypeScript with React/Vue.js
+  - TypeScript with React/Vue.js
 
 ## Camera
 

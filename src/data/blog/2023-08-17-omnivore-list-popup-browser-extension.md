@@ -1,9 +1,9 @@
 ---
 title: "Omnivore List Popup (Browser Extension)"
 date: 2023-08-17
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "open-source"
   - "software-development"
   - "web"

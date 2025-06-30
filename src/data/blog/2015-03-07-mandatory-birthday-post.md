@@ -1,9 +1,9 @@
 ---
 title: "Mandatory Birthday Post"
 date: 2015-03-07
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "herrherrmann"
 ---
 

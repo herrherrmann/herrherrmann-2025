@@ -1,9 +1,9 @@
 ---
 title: "My favorite websites of 2022"
 date: 2022-11-22
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "design"
   - "everyday"
   - "recommendations"

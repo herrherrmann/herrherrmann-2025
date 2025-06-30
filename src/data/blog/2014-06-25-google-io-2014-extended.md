@@ -1,9 +1,9 @@
 ---
 title: "Google I/O 2014 Extended"
 date: 2014-06-25
-categories: 
+categories:
   - "de"
-tags: 
+tags:
   - "apps"
   - "event"
   - "frankfurt"

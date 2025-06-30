@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Layout.astro
-title: 'Imprint'
+title: "Imprint"
 ---
 
 ## Responsible for content
@@ -12,8 +12,8 @@ Sebastian Herrmann
 
 The fonts used on this website are:
 
--   [Chivo](https://github.com/Omnibus-Type/Chivo) (paragraphs) – Copyright 2019, The Chivo Project Authors
--   [Space Mono](https://github.com/googlefonts/spacemono) (headlines) – Colophon Foundry for Google Design
+- [Chivo](https://github.com/Omnibus-Type/Chivo) (paragraphs) – Copyright 2019, The Chivo Project Authors
+- [Space Mono](https://github.com/googlefonts/spacemono) (headlines) – Colophon Foundry for Google Design
 
 ## Disclaimer
 

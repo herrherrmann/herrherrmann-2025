@@ -1,9 +1,9 @@
 ---
-title: "Some thoughts on \"Maintaining Creativity\""
+title: 'Some thoughts on "Maintaining Creativity"'
 date: 2017-10-19
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "book"
   - "design"
   - "review"

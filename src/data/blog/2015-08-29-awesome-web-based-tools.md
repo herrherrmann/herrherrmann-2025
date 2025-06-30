@@ -1,9 +1,9 @@
 ---
 title: "Awesome web-based tools."
 date: 2015-08-29
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "everyday"
   - "software"
   - "web"

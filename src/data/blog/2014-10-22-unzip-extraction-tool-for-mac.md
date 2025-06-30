@@ -1,9 +1,9 @@
 ---
 title: "Choosing an Unzip / Extraction Tool for Mac"
 date: 2014-10-22
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "everyday"
   - "free"
   - "software"

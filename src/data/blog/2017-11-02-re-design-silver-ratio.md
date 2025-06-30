@@ -1,9 +1,9 @@
 ---
 title: "A re-design (again): Silver Ratio"
 date: 2017-11-02
-categories: 
+categories:
   - "en"
-tags: 
+tags:
   - "design"
   - "herrherrmann"
   - "web"
