@@ -1,22 +1,20 @@
 ---
 import type { CollectionEntry } from 'astro:content'
+import { formatDate } from '../services/date'
+import { getBlogPath } from '../services/url'
 
 interface Props {
     posts: Array<CollectionEntry<'blog'>>
 }
 
 const { posts } = Astro.props
-
-function formatDate(date: Date) {
-    return date.toISOString().slice(0, 10)
-}
 ---
 
 <ul>
     {
         posts.map((post) => (
             <li>
-                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+                <a href={`/blog/${getBlogPath(post)}`}>{post.data.title}</a>
                 <time datetime={formatDate(post.data.date)}>{formatDate(post.data.date)}</time>
             </li>
         ))

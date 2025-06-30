@@ -1,14 +1,15 @@
 ---
+import { Image } from 'astro:assets'
 import { getCollection, render } from 'astro:content'
 import H2 from '../../components/H2.astro'
 import Layout from '../../layouts/Layout.astro'
-import { Image } from 'astro:assets'
+import { getBlogPath } from '../../services/url'
 
 export async function getStaticPaths() {
     const posts = await getCollection('blog')
     return posts.map((post) => ({
         params: {
-            id: post.id,
+            id: getBlogPath(post),
         },
         props: {
             post,
