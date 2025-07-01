@@ -1,0 +1,33 @@
+---
+import H1 from '../components/H1.astro'
+import SubMenu from '../components/SubMenu.astro'
+import Layout from './Layout.astro'
+
+const menuItems = [
+    {
+        title: 'bm_128',
+        url: '/music/bm_128',
+    },
+    {
+        title: 'MØDI',
+        url: '/music/modi',
+    },
+    {
+        title: 'Soundtracks',
+        url: '/music/soundtracks',
+    },
+    {
+        title: 'mentizid',
+        url: '/music/mentizid',
+    },
+]
+
+const { pathname } = Astro.url
+const currentPage = menuItems.find((menuItem) => menuItem.url === pathname)!
+---
+
+<Layout pageTitle={`Music / ${currentPage.title}`}>
+    <SubMenu navLabel="Music menu" menuItems={menuItems} />
+    <H1>{currentPage.title}</H1>
+    <slot />
+</Layout>

@@ -1,0 +1,62 @@
+---
+interface MenuItem {
+    url: string
+    title: string
+}
+
+interface Props {
+    navLabel: string
+    menuItems: MenuItem[]
+}
+
+const { pathname } = Astro.url
+const { navLabel, menuItems } = Astro.props
+---
+
+<nav aria-label={navLabel}>
+    <ul class="menu">
+        {
+            menuItems.map((menuItem) => (
+                <li>
+                    <a href={menuItem.url} class:list={['menu-item', { active: pathname === menuItem.url }]}>
+                        {menuItem.title}
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+</nav>
+
+<style>
+    nav {
+        margin-bottom: 1rem;
+    }
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: var(--font-family-headlines);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0rem 1rem;
+    }
+    .menu-item {
+        color: var(--text-color);
+        line-height: 1;
+        text-decoration: underline;
+        text-decoration-color: transparent;
+        text-decoration-thickness: 0.1em;
+        text-underline-offset: 0.18em;
+        padding: 0;
+        border-radius: 6px;
+        transition: text-decoration 100ms;
+    }
+    .menu-item:hover:not(.active) {
+        text-decoration-color: inherit;
+        color: var(--text-color-active);
+    }
+    .active {
+        text-decoration-color: inherit;
+        color: var(--text-color-active);
+    }
+</style>
