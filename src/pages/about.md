@@ -9,7 +9,7 @@ I’m a software developer from Berlin, Germany. Currently, I’m working for [S
 
 I love collaborating in small teams on impactful and creative projects. I care deeply about quality, sustainability, and accessibility. And I’m a believer in continuous learning, staying humble and letting the best ideas win.
 
-I’m also making [music](/projects) as bm_128 (my solo project) and as part of the band MØDI. And I [take photos](/photos)!
+I’m also making music under the name [bm_128](/music/bm_128) and as part of the band [MØDI](/music/modi). And I [take photos](/photos)!
 
 If you think I can help you out as a developer or musician, please [let me know](/contact) (no recruiters, please).
 
