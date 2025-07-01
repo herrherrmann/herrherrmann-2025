@@ -22,7 +22,8 @@ interface Props {
 
 const { pageTitle, pageDescription, ogImage, ogType = 'website', ogArticlePublishedTime, frontmatter } = Astro.props
 const siteName = 'Herr Herrmann'
-const fullTitle = [pageTitle, siteName].filter(Boolean).join(' – ')
+const pageTitleOrFrontmatterTitle = frontmatter?.title || pageTitle
+const fullTitle = [pageTitleOrFrontmatterTitle, siteName].filter(Boolean).join(' – ')
 ---
 
 <!doctype html>
