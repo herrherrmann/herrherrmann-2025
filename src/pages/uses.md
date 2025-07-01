@@ -85,7 +85,7 @@ Last update: 30 June 2025
 
 ## Camera
 
-See [photography page](/photos)!
+See [photos page](/photos/)!
 
 ## More
 

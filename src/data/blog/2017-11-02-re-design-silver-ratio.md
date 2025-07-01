@@ -10,7 +10,7 @@ tags:
   - "wordpress"
 ---
 
-About two years after the [last re-design](/blog/a-re-design) I decided to give it another go and optimize my site’s design again. This time I paid special attention to the selection of fonts in order to achieve consistent and readable typography. You’ll also notice that most of the decorating elements are gone in order to "let the letters speak" for themselves.
+About two years after the [last re-design](/blog/a-re-design/) I decided to give it another go and optimize my site’s design again. This time I paid special attention to the selection of fonts in order to achieve consistent and readable typography. You’ll also notice that most of the decorating elements are gone in order to "let the letters speak" for themselves.
 
 ![Before (Tea Time) and now (Silver Ratio).](images/HerrHerrmann-Themes-800x265.png)
 
