@@ -31,6 +31,7 @@ const fullTitle = [pageTitleOrFrontmatterTitle, siteName].filter(Boolean).join('
     <head>
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="alternate" type="application/rss+xml" title="Herr Herrmann" href={new URL('rss.xml', Astro.site)} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{fullTitle}</title>
         {pageDescription && <meta name="description" content={pageDescription} />}

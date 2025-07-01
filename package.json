@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/rss": "^4.0.12",
     "@astrojs/ts-plugin": "^1.10.4",
     "@fontsource-variable/chivo": "^5.2.6",
     "@fontsource/space-mono": "^5.2.7",

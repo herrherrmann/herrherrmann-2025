@@ -3,6 +3,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://herrherrmann2025.netlify.app",
   trailingSlash: "always",
   image: {
     responsiveStyles: true,
