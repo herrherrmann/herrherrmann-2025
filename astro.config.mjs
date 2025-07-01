@@ -6,5 +6,6 @@ export default defineConfig({
   trailingSlash: "always",
   image: {
     responsiveStyles: true,
+    layout: "constrained",
   },
 });
