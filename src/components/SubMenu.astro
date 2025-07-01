@@ -18,7 +18,7 @@ const { navLabel, menuItems } = Astro.props
         {
             menuItems.map((menuItem) => (
                 <li>
-                    <a href={menuItem.url} class:list={['menu-item', { active: pathname === menuItem.url }]}>
+                    <a href={menuItem.url} class:list={['menu-item', { active: menuItem.url === pathname }]}>
                         {menuItem.title}
                     </a>
                 </li>

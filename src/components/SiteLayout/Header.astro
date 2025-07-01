@@ -3,15 +3,16 @@ const { pathname } = Astro.url
 
 interface MenuItem {
     url: string
+    urlPrefix?: string
     title: string
 }
 
 const menuItems: MenuItem[] = [
     { url: '/', title: 'Blog' },
-    { url: '/about', title: 'About' },
-    { url: '/projects', title: 'Projects' },
-    { url: '/music/bm_128', title: 'Music' },
-    { url: '/photos', title: 'Photos' },
+    { url: '/about/', title: 'About' },
+    { url: '/projects/', urlPrefix: '/projects/', title: 'Projects' },
+    { url: '/music/bm_128/', urlPrefix: '/music/', title: 'Music' },
+    { url: '/photos/', title: 'Photos' },
 ]
 ---
 
@@ -23,7 +24,17 @@ const menuItems: MenuItem[] = [
                 {
                     menuItems.map((menuItem) => (
                         <li>
-                            <a href={menuItem.url} class:list={['menu-item', { active: pathname === menuItem.url }]}>
+                            <a
+                                href={menuItem.url}
+                                class:list={[
+                                    'menu-item',
+                                    {
+                                        active: menuItem.urlPrefix
+                                            ? pathname.includes(menuItem.urlPrefix)
+                                            : menuItem.url === pathname,
+                                    },
+                                ]}
+                            >
                                 {menuItem.title}
                             </a>
                         </li>
