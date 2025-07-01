@@ -1,8 +1,7 @@
 ---
 import { getCollection } from 'astro:content'
-import H2 from '../components/H2.astro'
+import H1 from '../components/H1.astro'
 import ProjectList from '../components/ProjectList.astro'
-import Spacer from '../components/Spacer.astro'
 import Layout from '../layouts/Layout.astro'
 
 const projects = await getCollection('projects')
@@ -11,7 +10,7 @@ const sortedProjects = projects.sort((a, b) => b.data.date.valueOf() - a.data.da
 ---
 
 <Layout pageTitle="Projects">
-    <H2>Projects</H2>
+    <H1>Projects</H1>
     <p>
         I’ve been building websites for quite a while now. Originally starting with simple HTML and CSS in the early
         2000s, I’ve soon started leveraging WordPress and eventually JavaScript frameworks like AngularJS and React to
@@ -22,6 +21,5 @@ const sortedProjects = projects.sort((a, b) => b.data.date.valueOf() - a.data.da
         You can find out more about my projects on <a href="https://github.com/herrherrmann/">GitHub</a>, or by looking
         at the selection of projects below.
     </p>
-    <Spacer size="1rem" />
     <ProjectList projects={sortedProjects} />
 </Layout>
