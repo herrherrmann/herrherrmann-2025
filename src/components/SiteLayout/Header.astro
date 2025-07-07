@@ -18,7 +18,10 @@ const menuItems: MenuItem[] = [
 
 <header>
     <div class="inner">
-        <a href="/" class="title"><span class="logo" role="presentation"></span>Herr Herrmann</a>
+        <a href="/" class="title" lang="de-DE">
+            <span class="logo" role="presentation"></span>
+            <span class="title-text">Herr Herrmann</span>
+        </a>
         <nav aria-label="Main menu">
             <ul class="menu">
                 {
@@ -67,12 +70,16 @@ const menuItems: MenuItem[] = [
         align-items: center;
         margin: 0;
         font-family: var(--font-family-headlines);
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         word-spacing: -0.4em;
         line-height: 1.1;
         text-decoration: none;
         color: var(--text-color);
         border-radius: 6px;
+
+        @media (min-width: 500px) {
+            font-size: 1.5rem;
+        }
     }
     .title:hover {
         color: var(--text-color-active);
@@ -86,6 +93,12 @@ const menuItems: MenuItem[] = [
         margin-right: 0.3em;
         background-color: var(--accent-color);
         border-radius: 50%;
+    }
+    .title-text {
+        flex: 0 1 auto;
+    }
+    nav {
+        flex: 1 2 auto;
     }
     .menu {
         list-style: none;
