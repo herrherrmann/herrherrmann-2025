@@ -1,11 +1,16 @@
 ---
 import { getCollection } from 'astro:content'
+import BlogList from '../components/BlogList.astro'
 import Layout from '../layouts/Layout.astro'
 import { sortBlogPosts } from '../services/date'
 
 const posts = sortBlogPosts(await getCollection('blog'))
+const recentPosts = posts.slice(0, 5)
 ---
 
 <Layout pageTitle="">
-    <p>Hello, I’m Sebastian from Berlin, Germany. 👋</p>
+    <p>Hello! I’m Sebastian, a software developer from Berlin. 👋</p>
+    <h2>Recent blog posts</h2>
+    <BlogList posts={recentPosts} />
+    <a href="/blog/">See all blog posts →</a>
 </Layout>
