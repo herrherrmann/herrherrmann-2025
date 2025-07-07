@@ -14,8 +14,8 @@ const { posts } = Astro.props
     {
         posts.map((post) => (
             <li>
-                <a href={`/blog/${getBlogPath(post)}/`}>{post.data.title}</a>
                 <time datetime={formatDate(post.data.date)}>{formatDate(post.data.date)}</time>
+                <a href={`/blog/${getBlogPath(post)}/`}>{post.data.title}</a>
             </li>
         ))
     }
@@ -29,7 +29,15 @@ const { posts } = Astro.props
     }
     li {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: baseline;
+        gap: 0.5rem;
+    }
+    time {
+        flex: 0 0 auto;
+        font-size: var(--font-size-small);
+        @media (min-width: 500px) {
+            font-size: var(--font-size-regular);
+        }
     }
 </style>

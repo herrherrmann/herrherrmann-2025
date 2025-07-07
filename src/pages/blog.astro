@@ -1,11 +1,13 @@
 ---
 import { getCollection } from 'astro:content'
+import BlogList from '../components/BlogList.astro'
+import H1 from '../components/H1.astro'
 import Layout from '../layouts/Layout.astro'
 import { sortBlogPosts } from '../services/date'
 
 const posts = sortBlogPosts(await getCollection('blog'))
 ---
 
-<Layout pageTitle="">
-    <p>Hello, I’m Sebastian from Berlin, Germany. 👋</p>
+<Layout pageTitle="Blog">
+    <BlogList posts={posts} />
 </Layout>
