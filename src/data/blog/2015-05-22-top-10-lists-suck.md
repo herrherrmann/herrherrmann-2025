@@ -1,8 +1,7 @@
 ---
 title: "Top 10 Reasons why Top 10 Lists suck"
 date: 2015-05-22
-categories:
-  - "en"
+language: "en"
 tags:
   - "everyday"
   - "web"

@@ -1,8 +1,7 @@
 ---
 title: "Logo-Konzepte"
 date: 2014-03-15
-categories:
-  - "de"
+language: "de"
 tags:
   - "design"
   - "de"

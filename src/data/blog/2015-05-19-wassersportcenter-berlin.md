@@ -1,8 +1,7 @@
 ---
 title: "Wassersportcenter Berlin"
 date: 2015-05-19
-categories:
-  - "en"
+language: "en"
 tags:
   - "berlin"
   - "design"

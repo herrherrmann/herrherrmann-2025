@@ -1,8 +1,7 @@
 ---
 title: "A Special Request…"
 date: 2015-02-25
-categories:
-  - "en"
+language: "en"
 tags:
   - "everyday"
   - "herrherrmann"

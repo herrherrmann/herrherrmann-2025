@@ -1,8 +1,7 @@
 ---
 title: "Migrating 1 terabyte of files from OneDrive to Nextcloud"
 date: 2022-11-17
-categories:
-  - "en"
+language: "en"
 tags:
   - "open-source"
   - "recommendations"

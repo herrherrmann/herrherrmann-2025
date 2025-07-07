@@ -1,8 +1,7 @@
 ---
 title: "7 Jahre HerrHerrmann.net!"
 date: 2014-03-07
-categories:
-  - "de"
+language: "de"
 tags:
   - "design"
   - "de"

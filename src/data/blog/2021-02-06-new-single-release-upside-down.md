@@ -1,8 +1,7 @@
 ---
 title: "New single release: Upside Down"
 date: 2021-02-06
-categories:
-  - "en"
+language: "en"
 tags:
   - "music"
 ---

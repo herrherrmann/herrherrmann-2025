@@ -1,8 +1,7 @@
 ---
 title: "Changelog basti 1.0.4"
 date: 2014-03-02
-categories:
-  - "de"
+language: "de"
 tags:
   - "everyday"
   - "de"

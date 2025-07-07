@@ -1,8 +1,7 @@
 ---
 title: "Frau Hegnauer Soundtrack is available again."
 date: 2015-03-28
-categories:
-  - "en"
+language: "en"
 tags:
   - "berlin"
   - "music"

@@ -1,8 +1,7 @@
 ---
 title: "Notizen in digital"
 date: 2014-03-01
-categories:
-  - "de"
+language: "de"
 tags:
   - "apps"
   - "everyday"

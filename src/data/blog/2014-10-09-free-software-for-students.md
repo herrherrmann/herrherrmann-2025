@@ -1,8 +1,7 @@
 ---
 title: "Free Software for Students"
 date: 2014-10-09
-categories:
-  - "en"
+language: "en"
 tags:
   - "free"
   - "school"

@@ -1,8 +1,7 @@
 ---
 title: "Using Canon EOS Utility without a CD"
 date: 2015-02-03
-categories:
-  - "en"
+language: "en"
 tags:
   - "review"
   - "software"

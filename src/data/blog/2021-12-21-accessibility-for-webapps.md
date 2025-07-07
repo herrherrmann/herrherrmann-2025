@@ -1,8 +1,7 @@
 ---
 title: "Accessibility for webapps"
 date: 2021-12-21
-categories:
-  - "en"
+language: "en"
 tags:
   - "accessibility"
   - "software-development"

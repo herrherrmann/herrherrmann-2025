@@ -1,8 +1,7 @@
 ---
 title: "My first Atom package: Angular-Bootstrap"
 date: 2016-05-01
-categories:
-  - "en"
+language: "en"
 tags:
   - "atom"
   - "extension"

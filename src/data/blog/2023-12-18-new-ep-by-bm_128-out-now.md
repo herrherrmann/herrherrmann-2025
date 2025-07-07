@@ -1,8 +1,7 @@
 ---
 title: "New EP by bm_128 out now!"
 date: 2023-12-18
-categories:
-  - "en"
+language: "en"
 tags:
   - "music"
 coverImage: "images/A-New-EP-in-2023-Cover.jpg"

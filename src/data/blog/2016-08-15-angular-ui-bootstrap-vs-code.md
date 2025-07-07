@@ -1,8 +1,7 @@
 ---
 title: "Angular UI Bootstrap Snippets for VS Code"
 date: 2016-08-15
-categories:
-  - "en"
+language: "en"
 tags:
   - "extension"
   - "javascript"

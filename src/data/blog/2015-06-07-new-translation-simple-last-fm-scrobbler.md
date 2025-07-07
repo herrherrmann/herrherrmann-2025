@@ -1,8 +1,7 @@
 ---
 title: "New translation: Simple Last.fm Scrobbler"
 date: 2015-06-07
-categories:
-  - "en"
+language: "en"
 tags:
   - "android"
   - "apps"

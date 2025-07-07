@@ -1,8 +1,7 @@
 ---
 title: "New MØDI album: re:float out now!"
 date: 2024-12-01
-categories:
-  - "en"
+language: "en"
 tags:
   - "music"
 coverImage: "images/IMG_9098.jpeg"

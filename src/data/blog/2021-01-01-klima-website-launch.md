@@ -1,8 +1,7 @@
 ---
 title: "Klima.com is live! Here are some learnings."
 date: 2021-01-01
-categories:
-  - "en"
+language: "en"
 tags:
   - "javascript"
   - "react"

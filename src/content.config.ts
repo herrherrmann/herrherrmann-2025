@@ -12,7 +12,7 @@ const blog = defineCollection({
       date: z.coerce.date(),
       coverImage: image().optional(),
       coverImageAlt: z.string().optional(),
-      categories: z.array(z.enum(["de", "en"])),
+      language: z.enum(["de", "en"]),
       tags: z.array(
         z.enum([
           "ableton",

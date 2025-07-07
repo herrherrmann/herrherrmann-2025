@@ -1,8 +1,7 @@
 ---
 title: "Lenovo T420S: HDD vs. SSD"
 date: 2015-01-26
-categories:
-  - "en"
+language: "en"
 tags:
   - "hardware"
   - "review"

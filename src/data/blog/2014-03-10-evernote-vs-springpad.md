@@ -1,8 +1,7 @@
 ---
 title: "Evernote vs. Springpad"
 date: 2014-03-10
-categories:
-  - "de"
+language: "de"
 tags:
   - "apps"
   - "de"

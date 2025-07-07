@@ -1,8 +1,7 @@
 ---
 title: "48 Stunden Neukölln: Ambient Neukölln"
 date: 2024-07-03
-categories:
-  - "en"
+language: "en"
 tags:
   - "music"
 coverImage: "images/photo_2024-07-03-14.45.43.jpg"

@@ -1,8 +1,7 @@
 ---
 title: "Redo – a culture generator"
 date: 2016-06-09
-categories:
-  - "en"
+language: "en"
 tags:
   - "angularjs"
   - "design"

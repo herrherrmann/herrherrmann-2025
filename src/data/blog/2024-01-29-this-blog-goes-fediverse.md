@@ -1,8 +1,7 @@
 ---
 title: "This blog goes Fediverse"
 date: 2024-01-29
-categories:
-  - "en"
+language: "en"
 tags:
   - "herrherrmann"
   - "web"

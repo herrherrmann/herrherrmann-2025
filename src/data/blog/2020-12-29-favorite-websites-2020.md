@@ -1,8 +1,7 @@
 ---
 title: "My favorite websites of 2020"
 date: 2020-12-29
-categories:
-  - "en"
+language: "en"
 tags:
   - "design"
   - "everyday"

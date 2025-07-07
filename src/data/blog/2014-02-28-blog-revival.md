@@ -1,8 +1,7 @@
 ---
 title: "Blog-Revival"
 date: 2014-02-28
-categories:
-  - "de"
+language: "de"
 tags:
   - "design"
   - "de"

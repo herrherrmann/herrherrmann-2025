@@ -1,8 +1,7 @@
 ---
 title: "Dreaming of the perfect Ableton Live controller"
 date: 2017-03-12
-categories:
-  - "en"
+language: "en"
 tags:
   - "ableton"
   - "music"

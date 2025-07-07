@@ -1,8 +1,7 @@
 ---
 title: "Hack-a-Lesson"
 date: 2014-11-29
-categories:
-  - "en"
+language: "en"
 tags:
   - "berlin"
   - "event"

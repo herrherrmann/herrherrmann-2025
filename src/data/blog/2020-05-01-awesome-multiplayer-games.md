@@ -1,8 +1,7 @@
 ---
 title: "Awesome Multiplayer Games, the site"
 date: 2020-05-01
-categories:
-  - "en"
+language: "en"
 tags:
   - "design"
   - "games"

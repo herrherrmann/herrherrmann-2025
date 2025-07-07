@@ -1,8 +1,7 @@
 ---
 title: "New Christmas EP!"
 date: 2015-01-13
-categories:
-  - "en"
+language: "en"
 tags:
   - "free"
   - "music"

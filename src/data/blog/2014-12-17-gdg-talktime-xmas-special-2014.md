@@ -1,8 +1,7 @@
 ---
 title: "GDG TalkTime Xmas Special 2014"
 date: 2014-12-17
-categories:
-  - "en"
+language: "en"
 tags:
   - "event"
   - "frankfurt"

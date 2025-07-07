@@ -1,8 +1,7 @@
 ---
 title: "React mini charts"
 date: 2023-02-22
-categories:
-  - "en"
+language: "en"
 tags:
   - "javascript"
   - "open-source"
