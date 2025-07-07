@@ -13,4 +13,4 @@ I performed at this year’s art festival _48 Stunden Neukölln_ (just like last
 Recordings: [https://soundcloud.com/bm_128/sets/live-improvisations](https://soundcloud.com/bm_128/sets/live-improvisations)  
 Thanks to Lorenzo for the photos!
 
-![Photo of bm_128 performing live in a beer garden in Berlin.](images/photo_2024-07-03-14.45.46-1-666x1000.jpg)
+![Photo of bm_128 performing live in a beer garden in Berlin.](images/photo_2024-07-03-14.45.46-1.jpg)

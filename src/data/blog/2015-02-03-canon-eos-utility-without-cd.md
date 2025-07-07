@@ -12,4 +12,4 @@ A few years ago, I bought a DSLR camera by Canon, and I’m very happy with it. 
 
 Luckily, there are easy ways \[there used to be a link here, but the target website is no longer available\] to alter those updaters in order to properly install the tools without the need of a CD. I’m just wondering what the motivation behind this installation/update policy is. Does it really hurt to give proper installers to everyone via the internet, and forget about putting CDs in the boxes? (Let alone four thick manual books in four different languages.)
 
-![Canon EOS Utility](images/Canon-EOS-Utility-Mac-500x315.jpg)
+![Canon EOS Utility](images/Canon-EOS-Utility-Mac.jpg)

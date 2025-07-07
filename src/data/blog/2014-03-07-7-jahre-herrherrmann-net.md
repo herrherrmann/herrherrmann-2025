@@ -13,4 +13,4 @@ Seit 7 Jahren gibt es nun diese Seite! In 2007 startete ich bastArt, mittlerweil
 
 Hier eine kleine Jubiläumsübersicht:
 
-![HerrHerrmann.net Jubiläum](images/anniversary1-500x500.jpg)
+![HerrHerrmann.net Jubiläum](images/anniversary1.jpg)

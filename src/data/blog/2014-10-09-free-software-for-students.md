@@ -13,4 +13,4 @@ It's a good time to be a student! Usually, students (and teachers or other facul
 
 Just to complete the list: [Microsoft](https://www.microsoft.com/de-de/store/b/student) is also offering lots of advantages for students. My school is for example giving out _Microsoft Imagine_ (formerly _DreamSpark_) licenses to every student. That lets us download Microsoft Operating Systems and other Microsoft software for free (even new Windows preview versions or the Visual Studio IDE).
 
-![DreamSpark](images/dreamspark_screenshot-500x388.png)
+![DreamSpark](images/dreamspark_screenshot.png)

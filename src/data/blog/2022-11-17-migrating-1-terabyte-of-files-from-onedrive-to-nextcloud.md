@@ -41,7 +41,7 @@ With this amount of data, I’ve run into the storage limit of my current storag
 
 <!--more-->
 
-![Screenshot of Sebastian’s OneDrive web UI, highlighting that it’s “99% full” with 6.99 GB remaining.](images/onedrive-storage-full-800x456.jpg)
+![Screenshot of Sebastian’s OneDrive web UI, highlighting that it’s “99% full” with 6.99 GB remaining.](images/onedrive-storage-full.jpg)
 
 Of course, I could upgrade my OneDrive plan to gain a higher storage limit (e.g. an increase of 200 GB costs 2€ more per month), but I wanted to look into alternatives to OneDrive anyway.
 
@@ -105,7 +105,7 @@ Side note: NextCloud’s OneDrive integration didn’t work properly, so I ironi
 
 <figure>
 
-![Screenshot of the Nextcloud web UI showing some folders like "Archiv", "Backups", and "Design". There’s a sidebar with some favorite folders.](images/Nextcloud-web-ui-800x456.jpg)
+![Screenshot of the Nextcloud web UI showing some folders like "Archiv", "Backups", and "Design". There’s a sidebar with some favorite folders.](images/Nextcloud-web-ui.jpg)
 
 <figcaption>
 
@@ -141,7 +141,7 @@ I’m still happy! By now, my Nextcloud instance is running version 28, so the U
 
 <figure>
 
-![Screenshot of the Nextcloud web UI. The current tab "files" is showing a list of folders and has a sidebar to jump to different favorites, the settings, etc.](images/Nextcloud-files-800x457.jpg)
+![Screenshot of the Nextcloud web UI. The current tab "files" is showing a list of folders and has a sidebar to jump to different favorites, the settings, etc.](images/Nextcloud-files.jpg)
 
 <figcaption>
 
@@ -153,7 +153,7 @@ Nextcloud files overview in version 28
 
 <figure>
 
-![Screenshot of the Nextcloud web UI. The current tab "memories" is showing a grid view of photos. There’s a sidebar with more menu items to see favorites, map, tags, etc.](images/Nextcloud-memories-800x457.jpg)
+![Screenshot of the Nextcloud web UI. The current tab "memories" is showing a grid view of photos. There’s a sidebar with more menu items to see favorites, map, tags, etc.](images/Nextcloud-memories.jpg)
 
 <figcaption>
 

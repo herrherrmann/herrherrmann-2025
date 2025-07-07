@@ -13,7 +13,7 @@ tags:
 
 Ich mag Notizen und To-Do-Listen! Die beiden Methoden helfen mir, viele Aufgaben gleichzeitig zu verwalten, zu priorisieren und motiviert zu bleiben (offenbar streiche ich gerne abgearbeitete Stichpunkte durch).
 
-![Notizen in digital](images/notizenindigital1-500x333.jpg)
+![Notizen in digital](images/notizenindigital1.jpg)
 
 Digitale Notizen haben den Vorteil, sehr gut verfügbar zu sein. Statt dem Aufschlagen des analogen Notizbuchs genügt ein kurzer Login im Browser oder das Starten der App auf dem Smartphone (oder iPod Touch). Zudem lassen sich kinderleicht Links, Bilder und andere Dateien anhängen. Und ich möchte sogar meinen, dadurch Ressourcen wie Papier und Stiftfarbe zu sparen.
 

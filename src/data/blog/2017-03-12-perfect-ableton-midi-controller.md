@@ -30,7 +30,7 @@ The Ableton Live controller of my dreams would certainly feature elements that a
 
 ## Inspiration from Ableton Push 2
 
-![Albeton Push 2](images/Ableton-Push-2-800x534.png)
+![Albeton Push 2](images/Ableton-Push-2.png)
 
 - The Ableton integration (managing clips, tracks, device parameters etc.) – basically being able to play and experiment without using the laptop screen
 - A small screen that shows which parameters are currently being mapped to the rotary encoders (doesn’t even have to be as fancy as in the second Ableton Push, as long as it’s well-readable)

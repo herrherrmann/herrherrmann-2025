@@ -12,7 +12,7 @@ tags:
 
 I recently read "_Maintaining Creativity / Psychology for Designers_" by Frank Berzbach (currently not yet available in English but in [German](https://www.amazon.de/Kreativit%C3%A4t-aushalten-Psychologie-f%C3%BCr-Designer/dp/3874397866) and some other languages) and it helped me think about and discover many insights about the topics creativity, productivity and different work environments. I want to share my main insights here.
 
-![](images/Kreativitaet-aushalten-500x394.jpg)
+![](images/Kreativitaet-aushalten.jpg)
 
 As the title suggests, the book is mainly targeting designers who work in (or for) agencies and most of the examples align with that. However, in my opinion this knowledge can easily be applied to any job that revolves around working in an office environment and interacting with other people (i.e. software developers, project managers and many others). I recognized many of the situations described in the book during my time as a web developer at startups and also during my short periods as a freelancer and working remotely (the book also features a chapter about "properly working alone").
 

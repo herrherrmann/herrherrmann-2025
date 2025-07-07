@@ -10,7 +10,7 @@ tags:
   - "wordpress"
 ---
 
-![Before and now.](images/herrherrmann-v7-v8-800x296.png)
+![Before and now.](images/herrherrmann-v7-v8.png)
 
 That’s basically it!
 

@@ -12,7 +12,7 @@ tags:
 
 A few days ago, I published my first npm package: [react-mini-charts](https://www.npmjs.com/package/react-mini-charts)!
 
-![](images/react-mini-charts-on-npm-500x286.jpg)
+![](images/react-mini-charts-on-npm.jpg)
 
 As the name suggests, it’s a small library of chart components for React. So far, there are only two charts available: a simple bar chart with labels and a pie chart (without any labels or legend). The bar chart component is an adapted and cleaned-up version of a component I’ve used for landing pages in the past. It’s basically just a bunch of styled HTML. The pie chart component is brand new and the first _SVG-based_ chart in the library!
 
@@ -20,7 +20,7 @@ As the name suggests, it’s a small library of chart components for React. So f
 
 <figure>
 
-![](images/react-mini-charts-PieChart-800x458.jpg)
+![](images/react-mini-charts-PieChart.jpg)
 
 <figcaption>
 The pie chart component, as seen in the component library.  

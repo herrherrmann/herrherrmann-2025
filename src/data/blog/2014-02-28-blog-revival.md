@@ -13,4 +13,4 @@ Statt einer langweiligen Newssektion möchte ich in einem kleinen persönlichen 
 
 Schauen wir mal, was draus wird! Einige Ideen sind bereits notiert ...
 
-![Blognotizen](images/blognotizen1-500x375.jpg)
+![Blognotizen](images/blognotizen1.jpg)
