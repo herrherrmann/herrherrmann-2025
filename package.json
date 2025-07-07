@@ -14,8 +14,8 @@
     "@astrojs/sitemap": "^3.4.1",
     "@astrojs/ts-plugin": "^1.10.4",
     "@fontsource-variable/chivo": "^5.2.6",
-    "@fontsource/space-mono": "^5.2.7",
-    "astro": "^5.10.1",
+    "@fontsource/space-mono": "^5.2.8",
+    "astro": "^5.11.0",
     "typescript": "^5.8.3"
   },
   "engines": {
