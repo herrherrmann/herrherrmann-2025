@@ -23,8 +23,7 @@ const { Content } = await render(post)
 ---
 
 <!-- TODO: Add pageDescriptions for all pages. -->
-<Layout pageTitle={post.data.title}>
-    <H1>{post.data.title}</H1>
+<Layout pageTitle={post.data.title} postData={post.data}>
     <p>
         <time datetime={post.data.date.toISOString()}>{formatDatePretty(post.data.date)}</time>
     </p>

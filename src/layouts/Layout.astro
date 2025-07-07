@@ -1,11 +1,11 @@
 ---
 import '@fontsource-variable/chivo'
 import '@fontsource/space-mono'
+import type { CollectionEntry } from 'astro:content'
 import H1 from '../components/H1.astro'
+import Footer from '../components/SiteLayout/Footer.astro'
 import GlobalStyles from '../components/SiteLayout/GlobalStyles.astro'
 import Header from '../components/SiteLayout/Header.astro'
-import Footer from '../components/SiteLayout/Footer.astro'
-import Main from '../components/SiteLayout/Main.astro'
 
 interface Props {
     pageTitle: string
@@ -14,16 +14,14 @@ interface Props {
     ogType?: 'website' | 'article'
     /** e.g. "2024-12-01T09:33:20+00:00" */
     ogArticlePublishedTime?: string
-    // TODO: Properly inherit this type from Astro.
-    frontmatter?: {
-        title: string
-    }
+    postData?: CollectionEntry<'blog'>['data']
 }
 
-const { pageTitle, pageDescription, ogImage, ogType = 'website', ogArticlePublishedTime, frontmatter } = Astro.props
+const { pageTitle, pageDescription, ogImage, ogType = 'website', ogArticlePublishedTime, postData } = Astro.props
 const siteName = 'Herr Herrmann'
-const pageTitleOrFrontmatterTitle = frontmatter?.title || pageTitle
-const fullTitle = [pageTitleOrFrontmatterTitle, siteName].filter(Boolean).join(' – ')
+const postTitleOrPageTitle = postData?.title || pageTitle
+const fullTitle = [postTitleOrPageTitle, siteName].filter(Boolean).join(' – ')
+const siteLanguage = 'en'
 ---
 
 <!doctype html>
@@ -46,14 +44,14 @@ const fullTitle = [pageTitleOrFrontmatterTitle, siteName].filter(Boolean).join('
         <meta name="generator" content={Astro.generator} />
         <meta name="author" content="Sebastian Herrmann" />
     </head>
-    <body>
+    <body lang={siteLanguage}>
         <GlobalStyles />
         <div class="layout">
             <Header />
-            <Main>
-                {frontmatter?.title ? <H1>{frontmatter.title}</H1> : null}
+            <main lang={postData?.language}>
+                {postData?.title ? <H1>{postData.title}</H1> : null}
                 <slot />
-            </Main>
+            </main>
             <Footer />
         </div>
     </body>
@@ -65,5 +63,12 @@ const fullTitle = [pageTitleOrFrontmatterTitle, siteName].filter(Boolean).join('
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+    }
+    main {
+        flex: 1 0 auto;
+        width: 100%;
+        max-width: var(--page-max-width);
+        padding: 0 var(--page-padding);
+        margin: 0 auto;
     }
 </style>
