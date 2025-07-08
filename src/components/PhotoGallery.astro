@@ -1,0 +1,94 @@
+---
+import { Carousel } from 'astro-carousel'
+import type { ComponentProps } from 'astro/types'
+import { Image } from 'astro:assets'
+
+// interface Props {
+//     images: ComponentProps<typeof Carousel>['images']
+// }
+
+// const { images } = Astro.props
+
+const sampleImages: ComponentProps<typeof Carousel>['images'] = [
+    {
+        src: 'https://a.storyblok.com/f/95455/1350x1080/3ef7748922/p5240368.jpg',
+        alt: '',
+        format: 'webp',
+        width: 200,
+        height: 200,
+    },
+    {
+        src: 'https://a.storyblok.com/f/95455/1350x1080/3ef7748922/p5240368.jpg',
+        alt: '',
+        format: 'webp',
+        width: 200,
+        height: 200,
+    },
+    {
+        src: 'https://a.storyblok.com/f/95455/1350x1080/3ef7748922/p5240368.jpg',
+        alt: '',
+        format: 'webp',
+        width: 200,
+        height: 200,
+    },
+    {
+        src: 'https://a.storyblok.com/f/95455/1350x1080/3ef7748922/p5240368.jpg',
+        alt: '',
+        format: 'webp',
+        width: 200,
+        height: 200,
+    },
+    {
+        src: 'https://a.storyblok.com/f/95455/1350x1080/3ef7748922/p5240368.jpg',
+        alt: '',
+        format: 'webp',
+        width: 200,
+        height: 200,
+    },
+]
+---
+
+<ul id="carouselTargetList">
+    {
+        sampleImages.map((image, index) => (
+            <li>
+                <a href={`/?image=${index}`} data-carousel-index={index}>
+                    <Image
+                        src={image.src}
+                        alt={image.alt}
+                        layout="constrained"
+                        format={image.format}
+                        width={image.width || 200}
+                        height={image.height || 200}
+                        loading="eager"
+                    />
+                </a>
+            </li>
+        ))
+    }
+</ul>
+<Carousel images={sampleImages} />
+
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+
+        li {
+            a {
+                display: flex;
+                transition: opacity 50ms;
+                img {
+                    width: 100%;
+                }
+            }
+            a:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+</style>

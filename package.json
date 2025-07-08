@@ -17,6 +17,7 @@
     "@fontsource-variable/chivo": "^5.2.6",
     "@fontsource/space-mono": "^5.2.8",
     "astro": "^5.11.0",
+    "astro-carousel": "^3.0.2",
     "typescript": "^5.8.3"
   },
   "engines": {
@@ -24,6 +25,7 @@
     "node": "22.14.0"
   },
   "devDependencies": {
-    "prettier": "3.6.2"
+    "prettier": "3.6.2",
+    "sass-embedded": "^1.89.2"
   }
 }
