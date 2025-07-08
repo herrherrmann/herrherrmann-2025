@@ -14,13 +14,25 @@ interface Props {
     ogType?: 'website' | 'article'
     /** e.g. "2024-12-01T09:33:20+00:00" */
     ogArticlePublishedTime?: string
+    /** Frontmatter coming from Markdown pages. */
+    frontmatter?: {
+        title: string
+    }
     postData?: CollectionEntry<'blog'>['data']
 }
 
-const { pageTitle, pageDescription, ogImage, ogType = 'website', ogArticlePublishedTime, postData } = Astro.props
+const {
+    pageTitle,
+    pageDescription,
+    ogImage,
+    ogType = 'website',
+    ogArticlePublishedTime,
+    frontmatter,
+    postData,
+} = Astro.props
 const siteName = 'Herr Herrmann'
-const postTitleOrPageTitle = postData?.title || pageTitle
-const fullTitle = [postTitleOrPageTitle, siteName].filter(Boolean).join(' – ')
+const pageTitleWithFallback = frontmatter?.title || postData?.title || pageTitle
+const fullTitle = [pageTitleWithFallback, siteName].filter(Boolean).join(' – ')
 const siteLanguage = 'en'
 ---
 
@@ -49,7 +61,7 @@ const siteLanguage = 'en'
         <div class="layout">
             <Header />
             <main lang={postData?.language}>
-                {postData?.title ? <H1>{postData.title}</H1> : null}
+                {frontmatter?.title || postData?.title ? <H1>{frontmatter?.title || postData?.title}</H1> : null}
                 <slot />
             </main>
             <Footer />
