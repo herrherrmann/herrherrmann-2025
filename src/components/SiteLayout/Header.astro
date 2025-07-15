@@ -83,6 +83,13 @@ const menuItems: MenuItem[] = [
     }
     .title:hover {
         color: var(--text-color-active);
+        animation-name: rubberBand;
+        animation-duration: 800ms;
+        animation-fill-mode: both;
+
+        @media (prefers-reduced-motion: reduce) {
+            animation-name: none;
+        }
     }
     .logo {
         display: block;
@@ -93,6 +100,29 @@ const menuItems: MenuItem[] = [
         margin-right: 0.3em;
         background-color: var(--accent-color);
         border-radius: 50%;
+    }
+    @keyframes rubberBand {
+        0% {
+            transform: scale3d(1, 1, 1);
+        }
+        30% {
+            transform: scale3d(1.25, 0.75, 1);
+        }
+        40% {
+            transform: scale3d(0.75, 1.25, 1);
+        }
+        50% {
+            transform: scale3d(1.15, 0.85, 1);
+        }
+        65% {
+            transform: scale3d(0.95, 1.05, 1);
+        }
+        75% {
+            transform: scale3d(1.05, 0.95, 1);
+        }
+        100% {
+            transform: scale3d(1, 1, 1);
+        }
     }
     .title-text {
         flex: 0 1 auto;
@@ -107,23 +137,26 @@ const menuItems: MenuItem[] = [
         font-family: var(--font-family-headlines);
         display: flex;
         justify-content: flex-end;
+        align-items: center;
         flex-wrap: wrap;
-        gap: 0rem 0.25rem;
+        gap: 0rem 0.1rem;
+        line-height: 1;
     }
     .menu-item {
-        color: var(--text-color);
-        line-height: 1;
+        display: flex;
         text-decoration: none;
-        padding: 0.25rem 0.4rem;
+        padding: 0.4rem 0.6rem;
         border-radius: 6px;
+        color: var(--text-color);
+        background-color: transparent;
         transition: background-color 100ms;
     }
     .menu-item:hover:not(.active) {
-        background-color: hsl(from var(--accent-color) h s l / 0.2);
         color: var(--text-color-active);
+        background-color: hsl(from var(--accent-color) h s l / 0.2);
     }
     .active {
-        background-color: var(--accent-color-subdued);
         color: var(--text-color-active);
+        background-color: var(--accent-color-subdued);
     }
 </style>
