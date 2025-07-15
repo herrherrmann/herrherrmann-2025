@@ -1,5 +1,23 @@
 ---
+import PhotoGallery from '../../components/PhotoGallery.astro'
 import MusicLayout from '../../layouts/MusicLayout.astro'
+import { toPhotoGalleryImage } from '../../services/images'
+import berliner_berg from '../../data/photos/bm_128/berliner_berg.jpg'
+import game_boy from '../../data/photos/bm_128/game_boy.jpg'
+import klingemuehle from '../../data/photos/bm_128/klingemuehle.jpeg'
+import Spacer from '../../components/Spacer.astro'
+
+const images = [
+    toPhotoGalleryImage(
+        berliner_berg,
+        'bm_128 performing live during daytime in front of a green-white wall with some plants hanging down. He is playing on a Biergarten table with a laptop, a Game Boy, and a synthesizer – all connected with lots of cables.'
+    ),
+    toPhotoGalleryImage(game_boy, 'Closeup of bm_128 holding a blue Game Boy in his hand during a live performance.'),
+    toPhotoGalleryImage(
+        klingemuehle,
+        'bm_128 performing live in a sunny garden with some shade provided by a propped-up parasol.'
+    ),
+]
 ---
 
 <MusicLayout>
@@ -25,6 +43,8 @@ import MusicLayout from '../../layouts/MusicLayout.astro'
             href="https://soundcloud.com/bm_128/sets/live-improvisations">SoundCloud</a
         >.
     </p>
+    <PhotoGallery images={images} />
+    <Spacer size="1rem" />
     <ul>
         <li>04.11.2017: Kitchen Live Jam @ home</li>
         <li>31.07.2021: Die klingende Mühle Festival</li>

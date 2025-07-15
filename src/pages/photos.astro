@@ -1,41 +1,34 @@
 ---
 import H1 from '../components/H1.astro'
 import PhotoGallery, { type PhotoGalleryImage } from '../components/PhotoGallery.astro'
-import Layout from '../layouts/Layout.astro'
 import barcelona from '../data/photos/barcelona.jpg'
 import berlin from '../data/photos/berlin.jpg'
+import forest from '../data/photos/forest.jpg'
+import guatemala from '../data/photos/guatemala.jpg'
 import takao from '../data/photos/takao.jpg'
 import waves from '../data/photos/waves.jpg'
-import guatemala from '../data/photos/guatemala.jpg'
-import forest from '../data/photos/forest.jpg'
-
-function getImage(image: ImageMetadata, alt: string): PhotoGalleryImage {
-    return {
-        // @ts-expect-error type issue with astro-carousel
-        src: image,
-        alt,
-        format: image.format,
-        width: image.width,
-        height: image.height,
-    }
-}
+import Layout from '../layouts/Layout.astro'
+import { toPhotoGalleryImage } from '../services/images'
 
 const images: PhotoGalleryImage[] = [
-    getImage(
+    toPhotoGalleryImage(
         barcelona,
         'A building with balconies and some plants peeking from the top, and a blue sky in the background.'
     ),
-    getImage(
+    toPhotoGalleryImage(
         berlin,
         'A high view of a roundabout street with some cars on it. The background shows Berlin’s skyline with the TV tower and some other buildings.'
     ),
-    getImage(
+    toPhotoGalleryImage(
         takao,
         'A mountain scene with some peaks peeking through dense fog. The peaks are filled with pointy trees.'
     ),
-    getImage(waves, 'A river splashing through some coarse rocks.'),
-    getImage(guatemala, 'Some older buildings in front of a new fancy-looking higher building.'),
-    getImage(forest, 'A dramatic angle in a forest full of leaf-less trees and some mossy bits on the ground.'),
+    toPhotoGalleryImage(waves, 'A river splashing through some coarse rocks.'),
+    toPhotoGalleryImage(guatemala, 'Some older buildings in front of a new fancy-looking higher building.'),
+    toPhotoGalleryImage(
+        forest,
+        'A dramatic angle in a forest full of leaf-less trees and some mossy bits on the ground.'
+    ),
 ]
 ---
 
