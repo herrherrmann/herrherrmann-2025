@@ -45,10 +45,6 @@ const { images } = Astro.props
         grid-template-columns: repeat(2, 1fr);
         gap: 0.5rem;
 
-        @media (min-width: 500px) {
-            grid-template-columns: repeat(3, 1fr);
-        }
-
         li {
             a {
                 display: flex;
@@ -61,6 +57,11 @@ const { images } = Astro.props
             a:hover {
                 opacity: 0.8;
             }
+        }
+    }
+    ul:has(> :nth-child(3)) {
+        @media (min-width: 500px) {
+            grid-template-columns: repeat(3, 1fr);
         }
     }
 </style>
