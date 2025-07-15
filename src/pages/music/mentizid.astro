@@ -1,5 +1,25 @@
 ---
+import PhotoGallery from '../../components/PhotoGallery.astro'
 import MusicLayout from '../../layouts/MusicLayout.astro'
+import live1 from '../../data/photos/mentizid/live-1.jpg'
+import live2 from '../../data/photos/mentizid/live-2.jpg'
+import live3 from '../../data/photos/mentizid/live-3.jpg'
+import { toPhotoGalleryImage } from '../../services/images'
+
+const images = [
+    toPhotoGalleryImage(
+        live1,
+        'mentizid performing live during daytime at an open-air venue in front of a youth club.'
+    ),
+    toPhotoGalleryImage(
+        live2,
+        'mentizid performing live in a small dark venue, including trumpet, guitar, and keyboards.'
+    ),
+    toPhotoGalleryImage(
+        live3,
+        'mentizid performing live in a small venue with a brickstone wall in the background.'
+    ),
+]
 ---
 
 <MusicLayout>
@@ -10,4 +30,5 @@ import MusicLayout from '../../layouts/MusicLayout.astro'
         > and played several live shows in Berlin and other cities in Germany.
     </p>
     <p>Nowadays, half of the band members of mentizid are playing in <a href="/music/modi/">MØDI</a>.</p>
+    <PhotoGallery images={images} />
 </MusicLayout>

@@ -1,5 +1,21 @@
 ---
+import PhotoGallery from '../../components/PhotoGallery.astro'
+import Spacer from '../../components/Spacer.astro'
+import live1 from '../../data/photos/modi/live-1.jpg'
+import live2 from '../../data/photos/modi/live-2.jpg'
 import MusicLayout from '../../layouts/MusicLayout.astro'
+import { toPhotoGalleryImage } from '../../services/images'
+
+const images = [
+    toPhotoGalleryImage(
+        live1,
+        'MØDI performing live in a small venue, with their singer Anne in the center of the photo.'
+    ),
+    toPhotoGalleryImage(
+        live2,
+        'MØDI performing live in a small venue, with Sebastian on keys and bass, and Karl on electric drums.'
+    ),
+]
 ---
 
 <MusicLayout>
@@ -16,4 +32,6 @@ import MusicLayout from '../../layouts/MusicLayout.astro'
         <li><a href="https://www.instagram.com/moditheband/">Instagram</a></li>
         <li><a href="https://www.facebook.com/modiberlin/">Facebook</a></li>
     </ul>
+    <Spacer size="0.5rem" />
+    <PhotoGallery images={images} />
 </MusicLayout>
