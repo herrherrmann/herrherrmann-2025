@@ -16,7 +16,8 @@ export async function GET(context: APIContext) {
       pubDate: post.data.date,
       // description: post.data.description,
       link: `/blog/${getBlogPath(post)}/`,
+      author: "Sebastian Herrmann",
+      customData: `<language>${post.data.language}</language>`,
     })),
-    customData: `<language>en-us</language>`,
   });
 }
