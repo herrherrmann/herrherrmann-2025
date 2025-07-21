@@ -16,7 +16,7 @@
     "@astrojs/ts-plugin": "^1.10.4",
     "@fontsource-variable/chivo": "^5.2.6",
     "@fontsource/space-mono": "^5.2.8",
-    "astro": "^5.11.1",
+    "astro": "^5.12.0",
     "astro-carousel": "^3.0.3",
     "typescript": "^5.8.3"
   },
