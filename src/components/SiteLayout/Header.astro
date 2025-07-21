@@ -3,15 +3,15 @@ const { pathname } = Astro.url
 
 interface MenuItem {
     url: string
-    urlPrefix?: string
+    urlMatch?: RegExp
     title: string
 }
 
 const menuItems: MenuItem[] = [
-    { url: '/blog/', urlPrefix: '/blog/', title: 'Blog' },
+    { url: '/blog/', urlMatch: new RegExp('/blog/'), title: 'Blog' },
     { url: '/about/', title: 'About' },
-    { url: '/projects/', urlPrefix: '/project/', title: 'Projects' },
-    { url: '/music/bm_128/', urlPrefix: '/music/', title: 'Music' },
+    { url: '/projects/', urlMatch: new RegExp('/projects?/'), title: 'Projects' },
+    { url: '/music/bm_128/', urlMatch: new RegExp('/music/'), title: 'Music' },
     { url: '/photos/', title: 'Photos' },
 ]
 ---
@@ -32,8 +32,8 @@ const menuItems: MenuItem[] = [
                                 class:list={[
                                     'menu-item',
                                     {
-                                        active: menuItem.urlPrefix
-                                            ? pathname.includes(menuItem.urlPrefix)
+                                        active: menuItem.urlMatch
+                                            ? menuItem.urlMatch.exec(pathname)
                                             : menuItem.url === pathname,
                                     },
                                 ]}
