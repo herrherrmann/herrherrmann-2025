@@ -34,7 +34,7 @@ const { images } = Astro.props
         ))
     }
 </ul>
-<Carousel images={images} />
+<Carousel images={images} color="var(--text-color)" />
 
 <style>
     ul {
@@ -62,5 +62,12 @@ const { images } = Astro.props
         @media (min-width: 500px) {
             grid-template-columns: repeat(3, 1fr);
         }
+    }
+    :global(.carousel__main) {
+        grid-template-columns: 0.15fr minmax(0, 90%) 0.15fr !important;
+    }
+    :global(.wrapper.carousel__slide-photo) {
+        border: 0.5rem solid #fff !important;
+        border-radius: var(--border-radius);
     }
 </style>
