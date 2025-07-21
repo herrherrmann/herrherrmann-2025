@@ -35,19 +35,19 @@ const { projects } = Astro.props
     a.link {
         width: 100%;
         display: flex;
-        flex-flow: column wrap;
+        flex-direction: column;
         text-decoration: none;
         border-radius: var(--border-radius);
-        padding: 0.2rem 0.5rem;
+        padding: 0.5rem;
         transition: background-color 50ms;
     }
     a.link:hover {
-        background-color: rgba(0, 0, 0, .1);
+        background-color: var(--selection-color);
     }
     .title {
         display: block;
-        font-weight: 500;
-        text-decoration: underline;#
+        font-weight: var(--font-weight-bold);
+        line-height: 1.2;
     }
     .description {
         text-decoration: none;
