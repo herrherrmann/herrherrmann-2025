@@ -12,7 +12,7 @@ const { projects } = Astro.props
     {
         projects.map((project) => (
             <li>
-                <a href={`/project/${project.id}`} class="link">
+                <a href={`/project/${project.id}/`} class="link">
                     <span class="title">{project.data.title}</span>
                     <small class="description">{project.data.description}</small>
                 </a>
