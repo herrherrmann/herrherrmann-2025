@@ -56,7 +56,7 @@ const projects = defineCollection({
     pattern: "**/*.md",
     base: "./src/data/projects",
   }),
-  schema: ({ image }) =>
+  schema: () =>
     z.object({
       title: z.string(),
       description: z.string(),
