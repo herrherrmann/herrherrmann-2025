@@ -1,14 +1,27 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection, type CollectionEntry } from 'astro:content'
 import BlogList from '../components/BlogList.astro'
 import H1 from '../components/H1.astro'
 import Layout from '../layouts/Layout.astro'
-import { sortBlogPosts } from '../services/date'
+import { getYear, sortBlogPosts } from '../services/date'
 
-const posts = sortBlogPosts(await getCollection('blog'))
+const posts = await getCollection('blog')
+const groupedPosts = Object.groupBy(posts, (post) => getYear(post.data.date))
+const entries = Object.entries(groupedPosts).sort((entryA, entryB) => {
+    const yearA = entryA[0]
+    const yearB = entryB[0]
+    return Number(yearB) - Number(yearA)
+})
 ---
 
 <Layout pageTitle="Blog">
     <H1>Blog</H1>
-    <BlogList posts={posts} />
+    {
+        entries.map((entry) => (
+            <>
+                <h2>{entry[0]}</h2>
+                <BlogList posts={sortBlogPosts(entry[1]!)} />
+            </>
+        ))
+    }
 </Layout>

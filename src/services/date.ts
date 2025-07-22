@@ -4,6 +4,10 @@ export function sortBlogPosts(posts: CollectionEntry<"blog">[]) {
   return posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
+export function getYear(date: Date) {
+  return date.toISOString().slice(0, 4);
+}
+
 export function formatDate(date: Date) {
   return date.toISOString().slice(0, 10);
 }
