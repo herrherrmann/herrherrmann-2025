@@ -1,7 +1,7 @@
 ---
 title: "Anne-Marie Schikowsky’s website"
 description: "Website for my friend and bandmate Anne"
-category: "software"
+category: "website"
 status: "active"
 url: https://annemarieschikowsky.de/
 date: 2023-03-21
