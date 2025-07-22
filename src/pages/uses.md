@@ -75,13 +75,14 @@ Last update: 30 June 2025
 - FTP client: ForkLift
 - Database clients: Postico and TablePlus
 
-### Tech stack (incomplete)
+### Tech stack of this site
 
-- This site:
-  - Astro
-  - Hosting: Netcup
-- Frontend development:
-  - TypeScript with React/Vue.js
+- Framework and content: [Astro](https://astro.build/)
+- Hosting: [Netcup](https://www.netcup.com/)
+- Fonts:
+  - [Chivo](https://github.com/Omnibus-Type/Chivo) (paragraphs) – Copyright 2019, The Chivo Project Authors
+  - [Space Mono](https://github.com/googlefonts/spacemono) (headlines) – Colophon Foundry for Google Design
+- Icons: [Phosphor](https://phosphoricons.com/)
 
 ## Camera
 
