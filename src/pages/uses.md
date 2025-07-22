@@ -26,7 +26,7 @@ Last update: 30 June 2025
 - Apple Mail (with Fastmail)
 - Feedly and NetNewsWire (RSS readers)
 - Omnivore (read-it-later service)
-- Nextcloud (file backup and sync, see [blog post](/migrating-1-terabyte-of-files-from-onedrive-to-nextcloud/))
+- Nextcloud (file backup and sync, see [blog post](/blog/migrating-1-terabyte-of-files-from-onedrive-to-nextcloud/))
 - Bitwarden (password manager)
 - Better Rename 9 (renaming photos and music files)
 - Keka (extracting/compressing files)
