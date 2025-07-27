@@ -5,13 +5,14 @@ title: "Uses"
 
 The hardware and software I’m using for projects, work, and free time.
 
-Last update: 30 June 2025
+Last update: 27 July 2025
 
 ## Hardware
 
-- MacBook Pro M1
-- Keychron Q11
-- Apple Magic Trackpad
+- Laptop: MacBook Pro M1
+- Input:
+  - Keychron Q11
+  - Apple Magic Trackpad
 - Display: LG 27UN83A
 - Headphones:
   - AirPods Pro
@@ -21,47 +22,46 @@ Last update: 30 June 2025
 
 ## Everyday software
 
-- Firefox (main browser)
-- Vivaldi and Safari (secondary browsers)
-- Apple Mail (with Fastmail)
-- Feedly and NetNewsWire (RSS readers)
-- Omnivore (read-it-later service)
+- Browser: Firefox (main), Vivaldi and Safari
+- Mail: Apple Mail (with Fastmail)
+- RSS readers: Feedly and NetNewsWire
+- ~~Omnivore (read-it-later service)~~
+- Bookmarks: Raindrop.io
 - Nextcloud (file backup and sync, see [blog post](/blog/migrating-1-terabyte-of-files-from-onedrive-to-nextcloud/))
-- Bitwarden (password manager)
-- Better Rename 9 (renaming photos and music files)
-- Keka (extracting/compressing files)
-- Mullvad VPN
+- Password manager: Bitwarden
+- Rename utility: Better Rename 9
+- VPN: Mullvad VPN
 
 ## Productivity
 
-- BusyCal (calendar and to-dos)
-- Things (to-dos)
-- Raycast (Spotlight replacement and multi-tool)
-- Craft (notes)
-- Notion (notes and databases)
+- Calendar and todos: BusyCal
+- Todos: Things
+- Launcher and multi-tool: Raycast
+- Notes:
+  - Craft
+  - Notion
 
 ## Multimedia
 
-- Apple Music (main music player)
-- Bandcamp, BBC Sounds, Spotify (secondary music players)
-- NepTunes and Finale (scrobbling to last.fm)
-- Songkick and Bandsintown (discovering upcoming concerts)
-- MusicHarbor (discovering new album releases)
-- Trakt and Letterboxd (tracking TV shows and movies)
-- Discogs (tracking record collection)
-- VLC Player (video player)
+- Music: Deezer (main), Apple Music, Bandcamp, Spotify (secondary music players)
+- [Scrobbling](https://www.last.fm/about/trackmymusic): NepTunes and Finale
+- Concert discovery/tracking: Songkick and Bandsintown
+- Videos: Netflix, YouTube
+- Movies/TV shows tracking: Trakt and Letterboxd
+- Discovering new releases: MusicHarbor
+- Record collection tracking: Discogs
+- Video player: VLC Player
 
 ## Social media
 
-- [elk.zone](https://elk.zone/) and Mona (Mastodon clients)
-- Octal (Hacker News iOS client)
+- Mastodon clients: [elk.zone](https://elk.zone/) and Mona
+- Hacker News iOS client: HACK
 
 ## Design & photo editing
 
-- Affinity Photo/Designer/Publisher (design and photo editing)
-- Capture One (photo editing)
-- Apple Photos (photo backup and sync)
-- Optimage (image resizing/optimization)
+- Affinity Photo/Designer/Publisher
+- Capture One
+- Optimage
 
 ## Software development
 
@@ -77,7 +77,7 @@ Last update: 30 June 2025
 
 ### Tech stack of this site
 
-- Framework and content: [Astro](https://astro.build/)
+- Framework: [Astro](https://astro.build/)
 - Hosting: [Netcup](https://www.netcup.com/)
 - Fonts:
   - [Chivo](https://github.com/Omnibus-Type/Chivo) (paragraphs) – Copyright 2019, The Chivo Project Authors
