@@ -6,6 +6,7 @@ import H1 from '../components/H1.astro'
 import Footer from '../components/SiteLayout/Footer.astro'
 import GlobalStyles from '../components/SiteLayout/GlobalStyles.astro'
 import Header from '../components/SiteLayout/Header.astro'
+import { initTracking } from '../services/tracking'
 
 interface Props {
     pageTitle: string
@@ -34,6 +35,8 @@ const siteName = 'Herr Herrmann'
 const pageTitleWithFallback = frontmatter?.title || postData?.title || pageTitle
 const fullTitle = [pageTitleWithFallback, siteName].filter(Boolean).join(' – ')
 const siteLanguage = 'en'
+
+initTracking()
 ---
 
 <!doctype html>

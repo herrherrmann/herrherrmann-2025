@@ -18,6 +18,7 @@
     "@fontsource/space-mono": "^5.2.8",
     "astro": "^5.12.3",
     "astro-carousel": "^3.0.3",
+    "posthog-js": "^1.258.2",
     "typescript": "^5.8.3"
   },
   "engines": {
