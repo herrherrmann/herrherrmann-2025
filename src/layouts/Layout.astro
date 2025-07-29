@@ -6,7 +6,7 @@ import H1 from '../components/H1.astro'
 import Footer from '../components/SiteLayout/Footer.astro'
 import GlobalStyles from '../components/SiteLayout/GlobalStyles.astro'
 import Header from '../components/SiteLayout/Header.astro'
-import { initTracking } from '../services/tracking'
+import TrackingScript from '../components/SiteLayout/TrackingScript.astro'
 
 interface Props {
     pageTitle: string
@@ -36,7 +36,7 @@ const pageTitleWithFallback = frontmatter?.title || postData?.title || pageTitle
 const fullTitle = [pageTitleWithFallback, siteName].filter(Boolean).join(' – ')
 const siteLanguage = 'en'
 
-initTracking()
+const isProd = import.meta.env.PROD
 ---
 
 <!doctype html>
@@ -73,6 +73,7 @@ initTracking()
             <Footer />
         </div>
     </body>
+    {isProd && <TrackingScript />}
 </html>
 
 <style>

@@ -6,8 +6,7 @@ Herr Herrmann’s website, built with Astro.
 
 1. Install Node and npm, with their versions matching `engines` in `package.json`.
 2. Install all dependencies via `npm install`.
-3. Optional: Create `.env` file with environment variables (see `.env.example`).
-4. Start the local dev server via `npm run dev`.
+3. Start the local dev server via `npm run dev`.
 
 ## Commands
 
