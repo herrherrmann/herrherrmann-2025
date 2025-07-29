@@ -63,17 +63,26 @@ import Mastodon from '../Logos/Mastodon.astro'
         padding: 0 var(--page-padding);
         margin: 0 auto;
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
         gap: 1rem 3rem;
+
+        @media (min-width: 500px) {
+            justify-content: space-between;
+        }
     }
     .menu {
+        flex: 1 1 auto;
         list-style: none;
         margin: 0;
         padding: 0;
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 0.25rem 1rem;
+
+        @media (min-width: 500px) {
+            flex-direction: row;
+        }
     }
     a.menu-item {
         color: var(--footer-text-color);
