@@ -7,7 +7,7 @@ Hello, I’m Sebastian. 👋
 
 I’m a software developer from Berlin, Germany. Currently, I’m working for [Small Improvements](https://www.small-improvements.com/), and I’m building smaller [software projects](/projects/) in my free time.
 
-I love collaborating in small teams on impactful and creative projects. I care deeply about quality, sustainability, and accessibility. And I’m a believer in continuous learning, staying humble and letting the best ideas win.
+I love collaborating in small teams on impactful and creative projects. I care deeply about quality, sustainability, and accessibility. And I’m a believer in continuous learning, staying humble, and letting the best ideas win.
 
 I’m also making music under the name [bm_128](/music/bm_128/) and as part of the band [MØDI](/music/modi/). And I [take photos](/photos/)!
 
