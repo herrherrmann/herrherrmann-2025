@@ -14,4 +14,4 @@ I am not responsible or liable for any content that is linked within this websi
 
 ## Analytics and cookies
 
-This website uses cookie-free analytics, therefore no personal data is being used or stored anywhere.
+This website uses cookie-free analytics through the PostHog platform, therefore no personal data is being used or stored anywhere.
