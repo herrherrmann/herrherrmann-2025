@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets'
 import { getCollection, render } from 'astro:content'
+import BlogTags from '../../components/BlogTags.astro'
 import Layout from '../../layouts/Layout.astro'
 import { formatDatePretty } from '../../services/date'
 import { getBlogPath } from '../../services/url'
@@ -23,9 +24,10 @@ const { Content } = await render(post)
 
 <!-- TODO: Add pageDescriptions for all pages. -->
 <Layout pageTitle={post.data.title} postData={post.data}>
-    <p>
+    <div class="metadata">
         <time datetime={post.data.date.toISOString()}>{formatDatePretty(post.data.date)}</time>
-    </p>
+        <BlogTags tags={post.data.tags} />
+    </div>
     {
         post.data.coverImage ? (
             <div class="coverImage">
@@ -43,6 +45,13 @@ const { Content } = await render(post)
 </Layout>
 
 <style>
+    .metadata {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
     .coverImage {
         display: flex;
         justify-content: center;

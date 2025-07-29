@@ -1,0 +1,29 @@
+---
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+    tags: CollectionEntry<'blog'>['data']['tags']
+}
+
+const { tags } = Astro.props
+---
+
+<ul>
+    {tags.map((tag) => <li>{tag}</li>)}
+</ul>
+
+<style>
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.25rem;
+    }
+    li {
+        border: 1px solid var(--text-color);
+        border-radius: var(--border-radius);
+        padding: 0.1rem 0.2rem;
+        font-size: var(--font-size-small);
+    }
+</style>
