@@ -63,6 +63,18 @@ Last update: 27 July 2025
 - Capture One
 - Optimage
 
+## Music production
+
+- Ableton Live
+- Korg Minilogue XD
+- Akai APC 40 mkII
+- Favorite vst plugins:
+  - U-he Repro
+  - Addictive Drums
+  - Guitar Rig
+  - …
+- Yamaha Bass
+
 ## Software development
 
 - Editor: VS Code with [many extensions and customizations](https://github.com/herrherrmann/vs-code-setup/)
