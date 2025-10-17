@@ -90,7 +90,7 @@ Last update: 27 July 2025
 ### Tech stack of this site
 
 - Framework: [Astro](https://astro.build/)
-- Hosting: [Netcup](https://www.netcup.com/)
+- Hosting: [Netcup](https://www.netcup.com/) and [Netlify](https://www.netlify.com/)
 - Fonts:
   - [Chivo](https://github.com/Omnibus-Type/Chivo) (paragraphs) – Copyright 2019, The Chivo Project Authors
   - [Space Mono](https://github.com/googlefonts/spacemono) (headlines) – Colophon Foundry for Google Design

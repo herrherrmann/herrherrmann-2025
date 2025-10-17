@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://herrherrmann2025.netlify.app",
+  site: "https://herrherrmann.net",
   trailingSlash: "always",
 
   image: {
