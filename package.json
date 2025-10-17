@@ -12,21 +12,21 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/rss": "^4.0.12",
-    "@astrojs/sitemap": "^3.4.2",
-    "@astrojs/ts-plugin": "^1.10.4",
-    "@fontsource-variable/chivo": "^5.2.6",
-    "@fontsource/space-mono": "^5.2.8",
-    "astro": "^5.12.5",
+    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/ts-plugin": "^1.10.5",
+    "@fontsource-variable/chivo": "^5.2.8",
+    "@fontsource/space-mono": "^5.2.9",
+    "astro": "^5.14.6",
     "astro-carousel": "^3.0.3",
-    "posthog-js": "^1.258.2",
-    "typescript": "^5.8.3"
+    "posthog-js": "^1.276.0",
+    "typescript": "^5.9.3"
   },
   "engines": {
-    "npm": "11.3.0",
-    "node": "22.14.0"
+    "npm": "11.6.2",
+    "node": "22.20.0"
   },
   "devDependencies": {
     "prettier": "3.6.2",
-    "sass-embedded": "^1.89.2"
+    "sass-embedded": "^1.93.2"
   }
 }
