@@ -5,6 +5,8 @@ import Layout from '../layouts/Layout.astro'
 import { sortBlogPosts } from '../services/date'
 import Spacer from '../components/Spacer.astro'
 import ButtonLink from '../components/ButtonLink.astro'
+import introImage from '../data/photos/intros/intro-forest.png'
+import { Image } from 'astro:assets'
 
 const posts = sortBlogPosts(await getCollection('blog'))
 const recentPosts = posts.slice(0, 5)
@@ -14,9 +16,26 @@ const recentPosts = posts.slice(0, 5)
     pageTitle=""
     pageDescription="Sebastian Herrmann’s blog and website about his software projects, music, and photos."
 >
+    <Image
+        src={introImage}
+        format={introImage.format}
+        alt="Photograph showing a forest trail with some thin trees."
+        layout="constrained"
+        width={800}
+        height={250}
+        loading="lazy"
+        class="introImage"
+    />
     <p>Hello! I’m Sebastian, a software developer from Berlin. 👋</p>
     <h2>Recent blog posts</h2>
     <BlogList posts={recentPosts} />
     <Spacer size="1rem" />
     <ButtonLink href="/blog/">See all blog posts</ButtonLink>
 </Layout>
+
+<style>
+    .introImage {
+        opacity: 0.75;
+        margin-bottom: 0.75rem;
+    }
+</style>
