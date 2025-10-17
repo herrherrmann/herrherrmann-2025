@@ -134,7 +134,7 @@ I think the migration was a success! The new setup is future-proof and more flex
 
 ## Update from April 2024
 
-I’m still happy! By now, my Nextcloud instance is running version 28, so the UI has improved changed a bit.
+I’m still happy! By now, my Nextcloud instance is running version 28, so the UI has ~~improved~~ changed a bit.
 
 <figure>
 
