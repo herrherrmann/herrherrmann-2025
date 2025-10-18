@@ -5,7 +5,7 @@ title: "Uses"
 
 The hardware and software I’m using for projects, work, and free time.
 
-Last update: 27 July 2025
+Last update: 18 October 2025
 
 ## Hardware
 
@@ -43,9 +43,9 @@ Last update: 27 July 2025
 
 ## Multimedia
 
-- Music: Deezer (main), Apple Music, Bandcamp, Spotify (secondary music players)
+- Music: Apple Music, Deezer, Bandcamp
 - [Scrobbling](https://www.last.fm/about/trackmymusic): NepTunes and Finale
-- Concert discovery/tracking: Songkick and Bandsintown
+- Concert tracking: Songkick and Bandsintown
 - Videos: Netflix, YouTube
 - Movies/TV shows tracking: Trakt and Letterboxd
 - Discovering new releases: MusicHarbor
