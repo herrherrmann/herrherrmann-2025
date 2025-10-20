@@ -10,7 +10,7 @@ Sebastian Herrmann
 
 ## Disclaimer
 
-I am not responsible or liable for any content that is linked within this website and/or was not created by me. Neither will I thoroughly monitor, nor initially check the complete content of the linked websites.
+I am not responsible or liable for any content that is linked within this website and/or was not created by me. Neither will I thoroughly monitor, nor initially check the complete content of the linked websites.
 
 ## Analytics and cookies
 
