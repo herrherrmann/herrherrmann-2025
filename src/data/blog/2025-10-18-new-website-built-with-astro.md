@@ -41,4 +41,4 @@ My plan is to migrate some blog posts into their respective project pages, and h
 - Release the website code as open source
 
 I hope you enjoy the new page! Feedback is very welcome, by the way.  
-And, as always: thanks for your visit! ❤️
+And, as always: thanks for your visit! 🎵
