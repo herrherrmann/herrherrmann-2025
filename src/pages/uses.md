@@ -5,7 +5,7 @@ title: "Uses"
 
 The hardware and software I’m using for projects, work, and free time.
 
-Last update: 18 October 2025
+Last update: 11 December 2025
 
 ## Hardware
 
@@ -22,10 +22,12 @@ Last update: 18 October 2025
 
 ## Everyday software
 
-- Browser: Firefox (main), Vivaldi and Safari
+- Browser: Firefox (main), Vivaldi, Safari
 - Mail: Apple Mail (with Fastmail)
-- RSS readers: Feedly and NetNewsWire
-- ~~Omnivore (read-it-later service)~~
+- RSS readers:
+  - NetNewsWire
+  - Feedly
+- ~~Omnivore (read-it-later service)~~ (RIP)
 - Bookmarks: Raindrop.io
 - Nextcloud (file backup and sync, see [blog post](/blog/migrating-1-terabyte-of-files-from-onedrive-to-nextcloud/))
 - Password manager: Bitwarden
@@ -70,9 +72,10 @@ Last update: 18 October 2025
 - Akai APC 40 mkII
 - Favorite vst plugins:
   - U-he Repro
-  - Addictive Drums
-  - Guitar Rig
-  - …
+  - Lounge Lizard EP-4
+  - XLN Addictive Drums
+  - Illformed Glitch
+  - Puremagnetik Octavlord
 - Yamaha Bass
 
 ## Software development
@@ -90,7 +93,7 @@ Last update: 18 October 2025
 ### Tech stack of this site
 
 - Framework: [Astro](https://astro.build/)
-- Hosting: [Netcup](https://www.netcup.com/) and [Netlify](https://www.netlify.com/)
+- Hosting: [Netcup](https://www.netcup.com/), GitHub and DeployHQ
 - Fonts:
   - [Chivo](https://github.com/Omnibus-Type/Chivo) (paragraphs) – Copyright 2019, The Chivo Project Authors
   - [Space Mono](https://github.com/googlefonts/spacemono) (headlines) – Colophon Foundry for Google Design
