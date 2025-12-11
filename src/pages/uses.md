@@ -43,7 +43,7 @@ Last update: 18 October 2025
 
 ## Multimedia
 
-- Music: Apple Music, Deezer, Bandcamp
+- Music: Qobuz, Apple Music, Bandcamp
 - [Scrobbling](https://www.last.fm/about/trackmymusic): NepTunes and Finale
 - Concert tracking: Songkick and Bandsintown
 - Videos: Netflix, YouTube
