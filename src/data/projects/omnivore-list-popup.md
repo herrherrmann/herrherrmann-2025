@@ -17,5 +17,4 @@ So far, I’ve received good feedback from the Omnivore community, and I’m a h
 
 ![Screenshot of the browser extension showing a list of links and some buttons.](images/omnivore-list-popup.jpg)
 
-
 As always, you can find my source code on GitHub: [https://github.com/herrherrmann/omnivore-list-popup/](https://github.com/herrherrmann/omnivore-list-popup/)
