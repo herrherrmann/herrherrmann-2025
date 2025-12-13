@@ -33,12 +33,12 @@ My plan is to migrate some blog posts into their respective project pages, and h
 
 ### Other plans:
 
-- Add some more features to the blog
-- Host my music for download here again
-- Add list of concerts I’ve attended
-- Showcase more of my photos, maybe even entire albums/collections
-- Join a [webring](https://github.com/XXIIVV/webring)
-- Release the website code as open source
+- [x] Release the website code as open source: https://github.com/herrherrmann/herrherrmann-2025
+- [ ] Add some more features to the blog
+- [ ] Host my music for download here again
+- [ ] Add list of concerts I’ve attended
+- [ ] Showcase more of my photos, maybe even entire albums/collections
+- [ ] Join a [webring](https://github.com/XXIIVV/webring)
 
-I hope you enjoy the new page! Feedback is very welcome, by the way.  
+I hope you enjoy the new website! Feedback is very welcome, by the way.  
 And, as always: thanks for your visit! 🎵
