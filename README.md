@@ -17,3 +17,9 @@ Herr Herrmann’s website, built with Astro.
 | `npm run preview`   | Preview your build locally, before deploying     |
 | `npm run astro ...` | Run CLI commands like `astro add`, `astro check` |
 | `npm run format`    | Formats all files via Prettier                   |
+
+## Deployment
+
+[![Deployment Status](https://github.com/herrherrmann/herrherrmann-2025/actions/workflows/deploy.yml/badge.svg)](https://github.com/herrherrmann/herrherrmann-2025/actions/workflows/deploy.yml)
+
+The deployment currently happens via GitHub actions.
