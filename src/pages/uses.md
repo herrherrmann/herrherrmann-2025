@@ -22,14 +22,14 @@ Last update: 11 December 2025
 
 ## Everyday software
 
-- Browser: Firefox (main), Vivaldi, Safari
+- Browser: Waterfox (main), Vivaldi, Safari
 - Mail: Apple Mail (with Fastmail)
 - RSS readers:
   - NetNewsWire
   - Feedly
-- ~~Omnivore (read-it-later service)~~ (RIP)
+- ~~Omnivore (read-it-later app)~~ (RIP)
 - Bookmarks: Raindrop.io
-- Nextcloud (file backup and sync, see [blog post](/blog/migrating-1-terabyte-of-files-from-onedrive-to-nextcloud/))
+- File sync/backups: Nextcloud ([blog post](/blog/migrating-1-terabyte-of-files-from-onedrive-to-nextcloud/))
 - Password manager: Bitwarden
 - Rename utility: Better Rename 9
 - VPN: Mullvad VPN
@@ -48,7 +48,7 @@ Last update: 11 December 2025
 - Music: Qobuz, Apple Music, Bandcamp
 - [Scrobbling](https://www.last.fm/about/trackmymusic): NepTunes and Finale
 - Concert tracking: Songkick and Bandsintown
-- Videos: Netflix, YouTube
+- Videos: YouTube, Netflix
 - Movies/TV shows tracking: Trakt and Letterboxd
 - Discovering new releases: MusicHarbor
 - Record collection tracking: Discogs
@@ -61,7 +61,7 @@ Last update: 11 December 2025
 
 ## Design & photo editing
 
-- Affinity Photo/Designer/Publisher
+- Affinity
 - Capture One
 - Optimage
 
