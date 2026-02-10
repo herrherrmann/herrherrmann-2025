@@ -18,5 +18,10 @@ export default defineConfig({
     layout: "constrained",
   },
 
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap({
+      filter: (page) => !page.includes("/404"),
+    }),
+  ],
 });
