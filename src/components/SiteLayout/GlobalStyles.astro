@@ -2,6 +2,7 @@
     :root {
         --font-family-content: 'Chivo Variable', sans-serif;
         --font-family-headlines: 'Space Mono', monospace;
+        --font-family-code: 'Space Mono', monospace;
         --font-size-regular: 17px;
         --font-size-small: 0.8rem;
         --line-height-default: 1.5;
@@ -23,6 +24,8 @@
         --selection-color: hsl(from var(--accent-color) h s l / 0.2);
         --footer-bg-color: #505157;
         --footer-text-color: var(--light-color);
+        --code-color: #2e5eaa;
+        --code-bg-color: hsl(from var(--code-color) h s l / 0.05);
 
         @media (prefers-color-scheme: dark) {
             --light-color: #3b3b40;
@@ -34,6 +37,8 @@
             --selection-color: hsl(from var(--accent-color) h s l / 0.2);
             --footer-bg-color: #27272a;
             --footer-text-color: var(--text-color);
+            --code-color: #8faee0;
+            --code-bg-color: hsl(from var(--code-color) h s l / 0.1);
         }
     }
     * {
@@ -124,6 +129,21 @@
         margin: 1rem 0 1rem 0;
         padding: 0.25rem 0 0.25rem 1rem;
         border-left: 2px solid hsl(from var(--text-color) h s l / 0.25);
+    }
+    pre {
+        font-size: var(--font-size-small);
+        font-family: var(--font-family-code);
+        padding: 0.5rem;
+        border-radius: var(--border-radius);
+    }
+    code:not(pre code) {
+        font-size: var(--font-size-small);
+        font-family: var(--font-family-code);
+        color: var(--code-color);
+        padding: 0 0.2em;
+        background-color: var(--code-bg-color);
+        border: 1px solid var(--code-color);
+        border-radius: var(--border-radius);
     }
     del {
         color: var(--text-color-disabled);
