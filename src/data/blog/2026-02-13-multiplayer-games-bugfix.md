@@ -35,6 +35,8 @@ So, changing the API call to use the new `game_type` field immediately made the 
 
 Since the aforementioned database pausing/shutdown struggle was still real, I also quickly moved the database setup over to the free plan of [Neon](https://neon.com/), which seems quite good so far!
 
+![Screenshot of the Neon admin interface, showing the games database with some entries.](images/neon_games_database.jpg)
+
 I am also glad that I could use a little debugging environment with [RapidAPI](https://paw.cloud/) that I set up back then. That made it easy to figure out what the API is returning, and to verify that the fix was indeed just related to the changed field name.
 
 ![Screenshot of the RapidAPI for Mac client with some example using the IGDB API.](images/rapidapi_igdb_api.jpg)
