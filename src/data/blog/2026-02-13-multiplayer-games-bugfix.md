@@ -25,7 +25,7 @@ I was worried that my access to the IGDB API was revoked or the API key needed a
 
 ![Screenshot of the IGDB API docs indicating some deprecated fields.](images/igdb_api_change.jpg)
 
-The `category` field is now deprecated, and should be replaced with the new `game_type` field! This is a big deal, because I’m using the `category` field to [filter games](<[category](https://github.com/herrherrmann/awesome-games-api/blob/cbcb804e6f7e8d68d0c61cba182dc29a68e23804/src/games/games.service.ts#L150)>) via the API’s proprietary query language. When using the old `category` field right now, the API just returns an empty list of games. Not ideal, but at least the change is clearly noted in the docs.
+The `category` field is now deprecated, and should be replaced with the new `game_type` field! This is a big deal, because I’m using the `category` field to [filter games](https://github.com/herrherrmann/awesome-games-api/blob/cbcb804e6f7e8d68d0c61cba182dc29a68e23804/src/games/games.service.ts#L150) via the API’s proprietary query language. When using the old `category` field right now, the API just returns an empty list of games. Not ideal, but at least the change is clearly noted in the docs.
 
 ## The fix
 
