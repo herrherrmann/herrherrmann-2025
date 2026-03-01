@@ -10,6 +10,8 @@ tags:
 
 Is it a bit late to be talking about music releases from last year? Maybe. Will I share my favorite relases of 2025 with you anyway? You bet. Here we go.
 
+![Collage showcasing the album art from all releases mentioned below.](images/favorite-music-releases-of-2025.png)
+
 ## [Do It Later - Feeling Spent](https://parapente.bandcamp.com/album/feeling-spent) (punk, emo, math rock)
 
 Wow, I just love this album. After Do It Later’s [debut EP](https://parapente.bandcamp.com/album/future-me), I was really looking forward to more music from them. And their full-length album does not disappoint! Old-school emo rock combined with intricate guitar play and rhythms (they are originally a math rock band, after all).
