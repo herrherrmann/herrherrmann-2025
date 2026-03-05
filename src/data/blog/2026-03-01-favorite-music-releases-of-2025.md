@@ -28,13 +28,19 @@ Another year, another album from Home Counties! I’m glad they’re busy, and I
 
 Including this release is a bit of a cheat, since it’s a pre-release of the first 4 songs of their second album (which was released only now in 2026). But, I’ll include it here anyway, because streaming platforms are terrible at managing these pre-releases, and because these first songs are great.
 
+## [Deafheaven - Lonely People With Power](https://www.discogs.com/release/33538143-Deafheaven-Lonely-People-With-Power) (black metal, blackgaze, post-metal)
+
+I honestly lost track of Deafheaven a bit after their famous [Sunbather](https://deafheavens.bandcamp.com/album/sunbather-2) release in 2013. And I’m glad that people encouraged me to check out their newest release! A lot of good stuff on there, whereby “Magnolia”, Heathen” (both compact straightforward bangers) and “Amethyst” (more of a long-winded post-metal song) are my favorites.
+
+P.S.: For some reason, Lonely People With Power is not available on Bandcamp (anymore?). 🤷
+
 ## [Gösta Berlings Saga - Forever Now](https://gostaberlingssaga.bandcamp.com/album/forever-now) (progressive rock, experimental)
 
 Another strong release by Gösta Berlings Saga. Music that’s somewhere between a soundtrack to an imaginary epic sci-fi movie, a progressive rock band, and an orchestra. The intense climaxes of the longer songs are interspersed with much simpler quieter tracks that give you a little room to breathe. Also: Very cute cover art.
 
 ## [Elder - Liminality / Dream State Return](https://beholdtheelder.bandcamp.com/album/liminality-dream-state-return) (psychedelic rock, stoner rock)
 
-Elder’s “Liminality” basically consists of just one long song, and then another song that could be interpreted as an expansive outro of the first song. What can I say? It’s Elder, it’s great. Repetitive-yet-interesting, smooth-yet-hard, simple-yet-complex.
+Elder’s EP (or is it a single?) basically consists of one long song, and another song that could be interpreted as an expansive outro of the first song. What can I say? It’s Elder, it’s great. Repetitive-yet-interesting, smooth-yet-hard, simple-yet-complex.
 
 ## [Laura Lee & the Jettes - Tough Love Paradigm](https://lauraleeandthejettes.bandcamp.com/album/tough-love-paradigm) (indie rock, shoegaze)
 
