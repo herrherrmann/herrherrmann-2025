@@ -10,16 +10,16 @@
     "format": "prettier . --write"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.6",
-    "@astrojs/mdx": "^4.3.13",
-    "@astrojs/rss": "^4.0.15",
-    "@astrojs/sitemap": "^3.7.0",
-    "@astrojs/ts-plugin": "^1.10.6",
+    "@astrojs/check": "^0.9.7",
+    "@astrojs/mdx": "^5.0.0",
+    "@astrojs/rss": "^4.0.17",
+    "@astrojs/sitemap": "^3.7.1",
+    "@astrojs/ts-plugin": "^1.10.7",
     "@fontsource-variable/chivo": "^5.2.8",
     "@fontsource/space-mono": "^5.2.9",
-    "astro": "^5.18.0",
+    "astro": "^6.0.4",
     "astro-carousel": "^3.0.3",
-    "posthog-js": "^1.356.1",
+    "posthog-js": "^1.360.2",
     "typescript": "^5.9.3"
   },
   "engines": {
@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "prettier": "3.8.1",
-    "sass-embedded": "^1.97.3"
+    "sass-embedded": "^1.98.0"
   }
 }
