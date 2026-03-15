@@ -29,5 +29,10 @@
   "devDependencies": {
     "prettier": "3.8.1",
     "sass-embedded": "^1.98.0"
+  },
+  "overrides": {
+    "astro-carousel": {
+      "astro": "$astro"
+    }
   }
 }
