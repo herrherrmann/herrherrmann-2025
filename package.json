@@ -18,7 +18,7 @@
     "@fontsource-variable/chivo": "^5.2.8",
     "@fontsource/space-mono": "^5.2.9",
     "astro": "^6.0.4",
-    "astro-carousel": "^3.0.3",
+    "astro-carousel": "^4.0.0",
     "posthog-js": "^1.360.2",
     "typescript": "^5.9.3"
   },
@@ -29,10 +29,5 @@
   "devDependencies": {
     "prettier": "3.8.1",
     "sass-embedded": "^1.98.0"
-  },
-  "overrides": {
-    "astro-carousel": {
-      "astro": "$astro"
-    }
   }
 }
