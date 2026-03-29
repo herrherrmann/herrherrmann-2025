@@ -93,13 +93,12 @@ import Mastodon from '../Logos/Mastodon.astro'
         display: flex;
         align-items: center;
         gap: 0.1rem;
-
-        svg {
-            width: 1.25em;
-            height: 1.25em;
-        }
     }
     a.menu-item:hover {
         text-decoration-color: inherit;
+    }
+    a.menu-item :global(svg) {
+        width: 1.25em;
+        height: 1.25em;
     }
 </style>
