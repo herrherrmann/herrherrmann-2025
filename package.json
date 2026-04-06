@@ -17,10 +17,10 @@
     "@astrojs/ts-plugin": "^1.10.7",
     "@fontsource-variable/chivo": "^5.2.8",
     "@fontsource/space-mono": "^5.2.9",
-    "astro": "^6.1.1",
-    "astro-carousel": "^4.0.0",
-    "posthog-js": "^1.364.1",
-    "typescript": "5.9.3"
+    "astro": "^6.1.3",
+    "astro-carousel": "^4.0.1",
+    "posthog-js": "^1.364.7",
+    "typescript": "^5.9.3"
   },
   "engines": {
     "npm": "11.8.0",
@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "prettier": "3.8.1",
-    "sass-embedded": "^1.98.0"
+    "sass-embedded": "^1.99.0"
   }
 }
