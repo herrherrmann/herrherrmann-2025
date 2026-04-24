@@ -23,8 +23,8 @@
     "typescript": "^5.9.3"
   },
   "engines": {
-    "npm": "11.8.0",
-    "node": "24.13.1"
+    "npm": "11.12.1",
+    "node": "24.15.0"
   },
   "devDependencies": {
     "prettier": "3.8.3",
