@@ -10,16 +10,16 @@
     "format": "prettier . --write"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.8",
+    "@astrojs/check": "^0.9.9",
     "@astrojs/mdx": "^5.0.4",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
     "@astrojs/ts-plugin": "^1.10.7",
     "@fontsource-variable/chivo": "^5.2.8",
     "@fontsource/space-mono": "^5.2.9",
-    "astro": "^6.1.9",
+    "astro": "^6.3.1",
     "astro-carousel": "^4.0.1",
-    "posthog-js": "^1.371.3",
+    "posthog-js": "^1.373.4",
     "typescript": "^5.9.3"
   },
   "engines": {
