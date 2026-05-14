@@ -57,7 +57,7 @@ const isProd = import.meta.env.PROD
         <meta property="og:title" content={fullTitle} />
         {pageDescription && <meta property="og:description" content={pageDescription} />}
         <meta property="og:type" content={ogType} />
-        {ogImage && <meta property="og:image" content={ogImage} />}
+        {ogImage && <meta property="og:image" content={new URL(ogImage, Astro.site)} />}
         {ogArticlePublishedTime && <meta property="article:published_time" content={ogArticlePublishedTime} />}
         <meta property="og:site_name" content={siteName} />
         <meta property="og:locale" content="en_US" />
