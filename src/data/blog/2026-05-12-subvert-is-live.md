@@ -5,6 +5,7 @@ language: "en"
 tags:
   - "music"
   - "web"
+ogImage: "images/bm_128 on subvert.jpg"
 ---
 
 [Subvert](https://www.subvert.fm/) officially went live today. It’s a music streaming platform made by former workers of Bandcamp. It’s quite similar to Bandcamp in a way, but it’s _friendlier_ in the sense that it is co-owned by their makers, artists and fans – and its future will be shaped by the community. They also made sure it cannot be sold to soulless corporations that would inevitably run it into the ground (which happens way too much nowadays, and Bandcamp itself might also go down that road). And the music player doesn’t stop if you switch to another page (an annoying behavior over at Bandcamp), which makes discovery easier and the overall experience more fluid.
