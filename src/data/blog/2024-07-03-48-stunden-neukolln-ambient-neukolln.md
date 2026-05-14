@@ -4,6 +4,7 @@ date: 2024-07-03
 language: "en"
 tags:
   - "music"
+  - "concert"
 coverImage: "images/photo_2024-07-03-14.45.43.jpg"
 ---
 
