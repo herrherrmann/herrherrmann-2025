@@ -16,11 +16,12 @@ const entries = Object.entries(groupedPosts).sort((entryA, entryB) => {
 
 <Layout pageTitle="Blog">
     <H1>Blog</H1>
+    <p>Posts about software development, music releases, events I’ve attended, and other projects.</p>
     {
-        entries.map((entry) => (
+        entries.map(([year, blogPosts]) => (
             <>
-                <h2>{entry[0]}</h2>
-                <BlogList posts={sortBlogPosts(entry[1]!)} />
+                <h2>{year}</h2>
+                <BlogList posts={sortBlogPosts(blogPosts!)} />
             </>
         ))
     }
