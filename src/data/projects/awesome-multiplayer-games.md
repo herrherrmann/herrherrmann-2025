@@ -5,6 +5,8 @@ category: "software"
 status: "active"
 url: https://multiplayer.page/
 date: 2020-12-26
+emoji: 🎮
+color: "#9a59b5"
 ---
 
 A list of… well, awesome multiplayer games! The content is [crowdsourced](https://github.com/herrherrmann/awesome-multiplayer-games) via GitHub, and I turned it into a little interactive [website](https://multiplayer.page/) with NestJS and React.

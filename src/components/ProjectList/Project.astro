@@ -2,38 +2,31 @@
 import type { CollectionEntry } from 'astro:content'
 
 interface Props {
-    projects: Array<CollectionEntry<'projects'>>
+    project: CollectionEntry<'projects'>
 }
 
-const { projects } = Astro.props
+const { project } = Astro.props
 ---
 
-<ul>
-    {
-        projects.map((project) => (
-            <li>
-                <a href={`/project/${project.id}/`} class="link">
-                    <span class="title">{project.data.title}</span>
-                    <small class="description">{project.data.description}</small>
-                </a>
-            </li>
-        ))
-    }
-</ul>
+<li>
+    <a href={`/project/${project.id}/`} class="link" aria-label={`${project.data.title} (${project.data.description})`}>
+        <span class="icon">
+            {project.data.emoji}
+        </span>
+        <span class="content">
+            <span class="title">{project.data.title}</span>
+            <small class="description">{project.data.description}</small>
+        </span>
+    </a>
+</li>
 
-<style>
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        border: 1px solid var(--text-color);
-        border-radius: var(--border-radius);
-    }
+<style define:vars={{ 'project-color': project.data.color }}>
     li {
-        --inner-border-radius: calc(var(--border-radius) - 1px);
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+
+        --inner-border-radius: calc(var(--border-radius) - 1px);
 
         &:first-of-type .link {
             border-top-left-radius: var(--inner-border-radius);
@@ -49,15 +42,30 @@ const { projects } = Astro.props
     .link {
         width: 100%;
         display: flex;
-        flex-direction: column;
-        text-decoration: none;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
         padding: 0.5rem;
         border-bottom: 1px solid var(--text-color);
+        text-decoration: none;
         transition: background-color 50ms;
 
         &:hover {
-            background-color: var(--selection-color);
+            background-color: hsl(from var(--project-color) h s l / 0.25);
         }
+    }
+    .icon {
+        width: 2rem;
+        height: 2rem;
+        flex: 0 0 2rem;
+        display: grid;
+        place-content: center;
+        border-radius: 50%;
+        background-color: var(--project-color);
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
     }
     .title {
         display: block;

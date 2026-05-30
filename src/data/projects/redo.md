@@ -5,6 +5,8 @@ category: "website"
 status: "active"
 url: https://re-do.ooo/
 date: 2018-07-01
+emoji: ♻️
+color: "#900103"
 ---
 
 I implemented my friend Finz’ art project (and bachelor’s thesis) “Redo” as an [interactive website](https://re-do.ooo/). It uses the YouTube API to randomly load YouTube obscure videos with very few views, and displays them in the background alongside Finz’ illustrations and street photos.

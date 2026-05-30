@@ -65,8 +65,10 @@ const projects = defineCollection({
       description: z.string(),
       category: z.enum(["software", "website"]),
       status: z.enum(["active", "inactive"]),
-      url: z.string().url().optional(),
+      url: z.url().optional(),
       date: z.coerce.date(),
+      emoji: z.string(),
+      color: z.string(),
     }),
 });
 
