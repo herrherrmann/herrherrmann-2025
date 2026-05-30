@@ -44,3 +44,5 @@ I am also glad that I could use a little debugging environment with [RapidAPI](h
 ## Next steps
 
 I’m not very happy with how bloated and hard-to-upgrade the NestJS backend code has become. If I have more time in the next months, I might look into migrating to a simpler framework like Express, Hono, or Fastify.
+
+**Update from May 2026:** I migrated the backend to Hono in the meantime! I’ve set up a [new repository](https://github.com/herrherrmann/awesome-games-api-v2) for it.
