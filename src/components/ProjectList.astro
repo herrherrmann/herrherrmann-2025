@@ -24,25 +24,40 @@ const { projects } = Astro.props
 <style>
     ul {
         list-style: none;
-        margin: 0 -0.5rem;
+        margin: 0;
         padding: 0;
+        border: 1px solid var(--text-color);
+        border-radius: var(--border-radius);
     }
     li {
+        --inner-border-radius: calc(var(--border-radius) - 1px);
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+
+        &:first-of-type .link {
+            border-top-left-radius: var(--inner-border-radius);
+            border-top-right-radius: var(--inner-border-radius);
+        }
+
+        &:last-of-type .link {
+            border-bottom-left-radius: var(--inner-border-radius);
+            border-bottom-right-radius: var(--inner-border-radius);
+            border-bottom: none;
+        }
     }
-    a.link {
+    .link {
         width: 100%;
         display: flex;
         flex-direction: column;
         text-decoration: none;
-        border-radius: var(--border-radius);
         padding: 0.5rem;
+        border-bottom: 1px solid var(--text-color);
         transition: background-color 50ms;
-    }
-    a.link:hover {
-        background-color: var(--selection-color);
+
+        &:hover {
+            background-color: var(--selection-color);
+        }
     }
     .title {
         display: block;
