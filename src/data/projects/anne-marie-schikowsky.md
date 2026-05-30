@@ -5,6 +5,8 @@ category: "website"
 status: "active"
 url: https://annemarieschikowsky.de/
 date: 2023-03-21
+emoji: 🎤
+color: "#bd8f8c"
 ---
 
 I co-designed and implemented the [website](https://annemarieschikowsky.de/) for my dear friend and bandmate Anne.

@@ -5,6 +5,8 @@ category: "software"
 status: "active"
 url: https://marketplace.visualstudio.com/items?itemName=herrherrmann.angular-bootstrap
 date: 2017-12-10
+emoji: 🧩
+color: "#563d7f"
 ---
 
 I wrote some code snippets for VS Code for users of the [UI Bootstrap library](https://angular-ui.github.io/bootstrap/) for AngularJS. It’s not much, but it seems quite popular, with over 200,000 installations in the VS Code extension marketplace!

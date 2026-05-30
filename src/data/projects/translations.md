@@ -4,6 +4,8 @@ description: "Software I’ve translated into German"
 category: "software"
 status: "active"
 date: 2015-01-10
+emoji: 📝
+color: "#4759ff"
 ---
 
 I’ve been contributing translations to some open-source projects on GitHub and translation platforms like Transifex or POEditor, mostly providing German translations for apps and extensions I’ve been using myself.
