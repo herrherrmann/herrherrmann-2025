@@ -9,6 +9,6 @@ emoji: 🎤
 color: "#bd8f8c"
 ---
 
-I co-designed and implemented the [website](https://annemarieschikowsky.de/) for my dear friend and bandmate Anne.
+I co-designed and implemented the [portfolio website](https://annemarieschikowsky.de/) for my dear friend and bandmate Anne.
 
 ![Screenshot of Anne’s website.](images/anne-marie-schikowsky.jpg)
