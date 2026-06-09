@@ -22,10 +22,6 @@ const { project } = Astro.props
 
 <style define:vars={{ 'project-color': project.data.color }}>
     li {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-
         --inner-border-radius: calc(var(--border-radius) - 1px);
 
         &:first-of-type .link {
@@ -43,7 +39,6 @@ const { project } = Astro.props
         width: 100%;
         display: flex;
         flex-direction: row;
-        align-items: center;
         gap: 0.5rem;
         padding: 0.5rem;
         border-bottom: 1px solid var(--text-color);
@@ -62,6 +57,7 @@ const { project } = Astro.props
         place-content: center;
         border-radius: 50%;
         background-color: var(--project-color);
+        margin-top: 2px;
     }
     .content {
         display: flex;
