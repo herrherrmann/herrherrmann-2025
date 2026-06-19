@@ -1,4 +1,5 @@
 // @ts-check
+import { unified } from "@astrojs/markdown-remark";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
@@ -10,7 +11,9 @@ export default defineConfig({
   trailingSlash: "always",
 
   markdown: {
-    remarkPlugins: [remarkModifiedTime],
+    processor: unified({
+      remarkPlugins: [remarkModifiedTime],
+    }),
   },
 
   image: {
