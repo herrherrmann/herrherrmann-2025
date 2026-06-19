@@ -11,23 +11,23 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
-    "@astrojs/mdx": "^6.0.1",
+    "@astrojs/mdx": "^6.0.3",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.3",
     "@astrojs/ts-plugin": "^1.10.9",
     "@fontsource-variable/chivo": "^5.2.8",
     "@fontsource/space-mono": "^5.2.9",
-    "astro": "^6.4.2",
+    "astro": "^6.4.8",
     "astro-carousel": "^4.0.1",
-    "posthog-js": "^1.376.4",
-    "typescript": "^5.9.3"
+    "posthog-js": "^1.390.2",
+    "typescript": "^6.0.3"
   },
   "engines": {
     "npm": "11.12.1",
     "node": "24.15.0"
   },
   "devDependencies": {
-    "prettier": "3.8.3",
+    "prettier": "3.8.4",
     "sass-embedded": "^1.100.0"
   }
 }
