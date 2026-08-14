@@ -3,7 +3,7 @@ title: "My first Atom package: Angular-Bootstrap"
 date: 2016-05-01
 language: "en"
 tags:
-  - "atom"
+  - "editors"
   - "extension"
   - "javascript"
   - "open-source"
