@@ -6,7 +6,6 @@ tags:
   - "apps"
   - "event"
   - "frankfurt"
-  - "de"
   - "software-development"
 ---
 

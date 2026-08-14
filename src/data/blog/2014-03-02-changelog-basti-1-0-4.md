@@ -4,7 +4,6 @@ date: 2014-03-02
 language: "de"
 tags:
   - "everyday"
-  - "de"
 ---
 
 **2014-03-02 Changelog for Version 1.0.4:**

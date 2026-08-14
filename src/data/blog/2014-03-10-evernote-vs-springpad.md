@@ -4,7 +4,6 @@ date: 2014-03-10
 language: "de"
 tags:
   - "apps"
-  - "de"
   - "review"
   - "software"
 ---

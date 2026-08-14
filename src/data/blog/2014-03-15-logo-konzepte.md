@@ -4,7 +4,6 @@ date: 2014-03-15
 language: "de"
 tags:
   - "design"
-  - "de"
   - "herrherrmann"
 ---
 

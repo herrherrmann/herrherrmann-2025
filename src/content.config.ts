@@ -25,7 +25,6 @@ const blog = defineCollection({
           "atom",
           "berlin",
           "book",
-          "de",
           "concert",
           "design",
           "event",

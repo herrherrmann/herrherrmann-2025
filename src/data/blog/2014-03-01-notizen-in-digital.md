@@ -5,7 +5,6 @@ language: "de"
 tags:
   - "apps"
   - "everyday"
-  - "de"
   - "review"
   - "software"
 ---
