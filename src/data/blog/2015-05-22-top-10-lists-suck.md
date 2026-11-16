@@ -1,10 +1,10 @@
 ---
-title: "Top 10 Reasons why Top 10 Lists suck"
+title: 'Top 10 Reasons why Top 10 Lists suck'
 date: 2015-05-22
-language: "en"
+language: 'en'
 tags:
-  - "everyday"
-  - "web"
+    - 'everyday'
+    - 'web'
 ---
 
 You've surely seen them already, popping up in your newsfeeds or - even more prominently - in social networks.

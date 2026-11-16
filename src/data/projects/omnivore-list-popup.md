@@ -1,12 +1,12 @@
 ---
-title: "Omnivore List Popup"
-description: "Browser extension to manage your read-it-later links"
-category: "software"
-status: "inactive"
+title: 'Omnivore List Popup'
+description: 'Browser extension to manage your read-it-later links'
+category: 'software'
+status: 'inactive'
 url: https://addons.mozilla.org/de/firefox/addon/omnivore-list-popup/
 date: 2023-08-17
 emoji: 📋
-color: "#fce7a2"
+color: '#fce7a2'
 ---
 
 > **🚧 Update:** Unfortunately, Omnivore shut down, which makes the extension useless for now.

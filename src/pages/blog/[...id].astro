@@ -1,13 +1,13 @@
 ---
-import { Image } from 'astro:assets'
-import { getCollection, render } from 'astro:content'
-import BlogTags from '../../components/BlogTags.astro'
-import Layout from '../../layouts/Layout.astro'
-import { formatDatePretty } from '../../services/date'
-import { getBlogPath } from '../../services/url'
+import { Image } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+import BlogTags from '../../components/BlogTags.astro';
+import Layout from '../../layouts/Layout.astro';
+import { formatDatePretty } from '../../services/date';
+import { getBlogPath } from '../../services/url';
 
 export async function getStaticPaths() {
-    const posts = await getCollection('blog')
+    const posts = await getCollection('blog');
     return posts.map((post) => ({
         params: {
             id: getBlogPath(post),
@@ -15,11 +15,11 @@ export async function getStaticPaths() {
         props: {
             post,
         },
-    }))
+    }));
 }
 
-const { post } = Astro.props
-const { Content } = await render(post)
+const { post } = Astro.props;
+const { Content } = await render(post);
 ---
 
 <!-- TODO: Add pageDescriptions for all pages. -->
@@ -30,21 +30,21 @@ const { Content } = await render(post)
 >
     <div class="metadata">
         <time datetime={post.data.date.toISOString()}>{formatDatePretty(post.data.date)}</time>
-        <div>Tags: <BlogTags tags={post.data.tags} /></div>
+        <div>
+            Tags: <BlogTags tags={post.data.tags} />
+        </div>
     </div>
-    {
-        post.data.coverImage ? (
-            <div class="coverImage">
-                <Image
-                    src={post.data.coverImage}
-                    alt={post.data.coverImageAlt || ''}
-                    layout="constrained"
-                    height={350}
-                    loading="eager"
-                />
-            </div>
-        ) : null
-    }
+    {post.data.coverImage ? (
+        <div class="coverImage">
+            <Image
+                src={post.data.coverImage}
+                alt={post.data.coverImageAlt || ''}
+                layout="constrained"
+                height={350}
+                loading="eager"
+            />
+        </div>
+    ) : null}
     <Content />
 </Layout>
 

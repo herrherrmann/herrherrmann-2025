@@ -1,10 +1,10 @@
 ---
-title: "I built a DisArray Desnarler"
+title: 'I built a DisArray Desnarler'
 date: 2026-01-31
-language: "en"
+language: 'en'
 tags:
-  - "event"
-  - "hardware"
+    - 'event'
+    - 'hardware'
 ---
 
 I recently joined my friend [Urs](https://www.instagram.com/the.not.so.distant.future/)’ workshop to build a little macro ~~keyboard~~ pad, the DisArray Desnarler!

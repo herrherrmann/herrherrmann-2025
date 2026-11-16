@@ -1,12 +1,12 @@
 ---
-title: "Omnivore List Popup (Browser Extension)"
+title: 'Omnivore List Popup (Browser Extension)'
 date: 2023-08-17
-language: "en"
+language: 'en'
 tags:
-  - "open-source"
-  - "software-development"
-  - "web"
-coverImage: "images/screenshot-chrome-light.jpg"
+    - 'open-source'
+    - 'software-development'
+    - 'web'
+coverImage: 'images/screenshot-chrome-light.jpg'
 ---
 
 I’ve recently released my first browser extension: Omnivore List Popup! It’s available for [Firefox](https://addons.mozilla.org/firefox/addon/omnivore-list-popup/) and [Chrome](https://chrome.google.com/webstore/detail/omnivore-list-popup/dnfckbihnohkfoaclfckbcebclmhleni) (and other Chromium-based browsers, like Vivaldi).

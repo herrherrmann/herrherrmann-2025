@@ -1,10 +1,10 @@
 ---
-title: "Blog-Revival"
+title: 'Blog-Revival'
 date: 2014-02-28
-language: "de"
+language: 'de'
 tags:
-  - "design"
-  - "herrherrmann"
+    - 'design'
+    - 'herrherrmann'
 ---
 
 Statt einer langweiligen Newssektion möchte ich in einem kleinen persönlichen Blog lieber meine Erfahrungen und Gedanken zu Themen äußern, die nicht nur mich, sondern auch viele andere Menschen beschäftigen. Zu diesen Themen zählen momentan Softwareentwicklung, Musik(-produktion), Design und Fotografie.

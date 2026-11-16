@@ -1,10 +1,10 @@
 ---
-title: "Dreaming of the perfect Ableton Live controller"
+title: 'Dreaming of the perfect Ableton Live controller'
 date: 2017-03-12
-language: "en"
+language: 'en'
 tags:
-  - "ableton"
-  - "music"
+    - 'ableton'
+    - 'music'
 ---
 
 **Disclaimer:** This post will not be interesting to you if you’re not that much into computer-based music production and/or MIDI controllers.

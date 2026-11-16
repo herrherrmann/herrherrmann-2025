@@ -1,12 +1,12 @@
 ---
-title: "Hack-a-Lesson"
+title: 'Hack-a-Lesson'
 date: 2014-11-29
-language: "en"
+language: 'en'
 tags:
-  - "berlin"
-  - "event"
-  - "school"
-  - "software"
+    - 'berlin'
+    - 'event'
+    - 'school'
+    - 'software'
 ---
 
 Requested by one of our professors Mrs. Prof. Dr. Lemke, we organised our own little hackathon in Berlin last weekend! Since the topic was all around teaching beginners how to code we called it _Hack-a-Lesson_ and invited people to create some nice concepts and ideas that will eventually influence the second volume of Mrs. Lemke's book [Einführung in die Wirtschaftsinformatik](https://www.amazon.de/Einf%C3%BChrung-die-Wirtschaftsinformatik-Verstehen-Zeitalters/dp/3662440644/).

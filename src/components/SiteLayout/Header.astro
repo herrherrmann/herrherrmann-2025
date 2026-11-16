@@ -1,21 +1,25 @@
 ---
-import Spiral from '../Logos/Spiral.astro'
+import Spiral from '../Logos/Spiral.astro';
 
-const { pathname } = Astro.url
+const { pathname } = Astro.url;
 
 interface MenuItem {
-    url: string
-    urlMatch?: RegExp
-    title: string
+    url: string;
+    urlMatch?: RegExp;
+    title: string;
 }
 
 const menuItems: MenuItem[] = [
     { url: '/blog/', urlMatch: new RegExp('/blog/'), title: 'Blog' },
     { url: '/about/', title: 'About' },
-    { url: '/projects/', urlMatch: new RegExp('/projects?/'), title: 'Projects' },
+    {
+        url: '/projects/',
+        urlMatch: new RegExp('/projects?/'),
+        title: 'Projects',
+    },
     { url: '/music/bm_128/', urlMatch: new RegExp('/music/'), title: 'Music' },
     { url: '/photos/', title: 'Photos' },
-]
+];
 ---
 
 <header>
@@ -28,25 +32,23 @@ const menuItems: MenuItem[] = [
         </a>
         <nav aria-label="Main menu">
             <ul class="menu">
-                {
-                    menuItems.map((menuItem) => (
-                        <li>
-                            <a
-                                href={menuItem.url}
-                                class:list={[
-                                    'menu-item',
-                                    {
-                                        active: menuItem.urlMatch
-                                            ? menuItem.urlMatch.exec(pathname)
-                                            : menuItem.url === pathname,
-                                    },
-                                ]}
-                            >
-                                {menuItem.title}
-                            </a>
-                        </li>
-                    ))
-                }
+                {menuItems.map((menuItem) => (
+                    <li>
+                        <a
+                            href={menuItem.url}
+                            class:list={[
+                                'menu-item',
+                                {
+                                    active: menuItem.urlMatch
+                                        ? menuItem.urlMatch.exec(pathname)
+                                        : menuItem.url === pathname,
+                                },
+                            ]}
+                        >
+                            {menuItem.title}
+                        </a>
+                    </li>
+                ))}
             </ul>
         </nav>
     </div>

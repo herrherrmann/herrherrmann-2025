@@ -1,10 +1,10 @@
 ---
-title: "New EP by bm_128 out now!"
+title: 'New EP by bm_128 out now!'
 date: 2023-12-18
-language: "en"
+language: 'en'
 tags:
-  - "music"
-coverImage: "images/A-New-EP-in-2023-Cover.jpg"
+    - 'music'
+coverImage: 'images/A-New-EP-in-2023-Cover.jpg'
 ---
 
 A few days ago I released a new EP as bm_128 called “A New EP in 2023”! This release focuses more on the post-rock genre, and the electronic aspects are a bit deemphasized this time.

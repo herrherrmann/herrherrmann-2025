@@ -1,11 +1,11 @@
 ---
-title: "My favorite music releases of 2025"
+title: 'My favorite music releases of 2025'
 date: 2026-03-01
-language: "en"
+language: 'en'
 tags:
-  - "music"
-  - "everyday"
-  - "recommendations"
+    - 'music'
+    - 'everyday'
+    - 'recommendations'
 ---
 
 Is it a bit late to be talking about music releases from last year? Maybe. Will I share my favorite relases of 2025 with you anyway? You bet. Here we go.

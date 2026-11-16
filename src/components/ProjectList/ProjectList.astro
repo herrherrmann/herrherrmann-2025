@@ -1,16 +1,18 @@
 ---
-import type { CollectionEntry } from 'astro:content'
-import Project from './Project.astro'
+import type { CollectionEntry } from 'astro:content';
+import Project from './Project.astro';
 
 interface Props {
-    projects: Array<CollectionEntry<'projects'>>
+    projects: Array<CollectionEntry<'projects'>>;
 }
 
-const { projects } = Astro.props
+const { projects } = Astro.props;
 ---
 
 <ul>
-    {projects.map((project) => <Project project={project} />)}
+    {projects.map((project) => (
+        <Project project={project} />
+    ))}
 </ul>
 
 <style>

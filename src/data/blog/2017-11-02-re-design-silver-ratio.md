@@ -1,12 +1,12 @@
 ---
-title: "A re-design (again): Silver Ratio"
+title: 'A re-design (again): Silver Ratio'
 date: 2017-11-02
-language: "en"
+language: 'en'
 tags:
-  - "design"
-  - "herrherrmann"
-  - "web"
-  - "wordpress"
+    - 'design'
+    - 'herrherrmann'
+    - 'web'
+    - 'wordpress'
 ---
 
 About two years after the [last re-design](/blog/a-re-design/) I decided to give it another go and optimize my site’s design again. This time I paid special attention to the selection of fonts in order to achieve consistent and readable typography. You’ll also notice that most of the decorating elements are gone in order to "let the letters speak" for themselves.

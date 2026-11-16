@@ -1,21 +1,20 @@
 ---
-import type { CollectionEntry } from 'astro:content'
+import type { CollectionEntry } from 'astro:content';
 
 interface Props {
-    tags: CollectionEntry<'blog'>['data']['tags']
+    tags: CollectionEntry<'blog'>['data']['tags'];
 }
 
-const { tags } = Astro.props
+const { tags } = Astro.props;
 ---
 
 <ul>
-    {
-        tags.map((tag, index) => (
-            <li>
-                {tag}{index < tags.length - 1 ? ', ' : ''}
-            </li>
-        ))
-    }
+    {tags.map((tag, index) => (
+        <li>
+            {tag}
+            {index < tags.length - 1 ? ', ' : ''}
+        </li>
+    ))}
 </ul>
 
 <style>

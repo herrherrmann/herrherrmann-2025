@@ -1,18 +1,16 @@
 ---
-import type { CollectionEntry } from 'astro:content'
+import type { CollectionEntry } from 'astro:content';
 
 interface Props {
-    project: CollectionEntry<'projects'>
+    project: CollectionEntry<'projects'>;
 }
 
-const { project } = Astro.props
+const { project } = Astro.props;
 ---
 
 <li>
     <a href={`/project/${project.id}/`} class="link" aria-label={`${project.data.title} (${project.data.description})`}>
-        <span class="icon">
-            {project.data.emoji}
-        </span>
+        <span class="icon">{project.data.emoji}</span>
         <span class="content">
             <span class="title">{project.data.title}</span>
             <small class="description">{project.data.description}</small>

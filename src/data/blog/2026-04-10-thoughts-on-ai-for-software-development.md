@@ -1,9 +1,9 @@
 ---
-title: "Thoughts on AI for software development"
+title: 'Thoughts on AI for software development'
 date: 2026-04-10
-language: "en"
+language: 'en'
 tags:
-  - "software-development"
+    - 'software-development'
 ---
 
 I’ve been trying to arrange my thoughts around AI (coding assistants, vibe coding, etc.) in the context of being a software developer. This is a collection of articles and essays that helped me make up my mind a bit, and gain the perspective I have today. You can dig deeper into certain angles by following the linked sources – They will also contain more nuance than the excerpts I’ve highlighted here, of course.

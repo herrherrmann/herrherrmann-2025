@@ -1,24 +1,22 @@
 ---
-import type { CollectionEntry } from 'astro:content'
-import { formatDate } from '../services/date'
-import { getBlogPath } from '../services/url'
+import type { CollectionEntry } from 'astro:content';
+import { formatDate } from '../services/date';
+import { getBlogPath } from '../services/url';
 
 interface Props {
-    posts: Array<CollectionEntry<'blog'>>
+    posts: Array<CollectionEntry<'blog'>>;
 }
 
-const { posts } = Astro.props
+const { posts } = Astro.props;
 ---
 
 <ul>
-    {
-        posts.map((post) => (
-            <li>
-                <time datetime={formatDate(post.data.date)}>{formatDate(post.data.date)}</time>
-                <a href={`/blog/${getBlogPath(post)}/`}>{post.data.title}</a>
-            </li>
-        ))
-    }
+    {posts.map((post) => (
+        <li>
+            <time datetime={formatDate(post.data.date)}>{formatDate(post.data.date)}</time>
+            <a href={`/blog/${getBlogPath(post)}/`}>{post.data.title}</a>
+        </li>
+    ))}
 </ul>
 
 <style>

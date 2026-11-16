@@ -1,11 +1,11 @@
 ---
-title: "Awesome Multiplayer Games, the site"
+title: 'Awesome Multiplayer Games, the site'
 date: 2020-05-01
-language: "en"
+language: 'en'
 tags:
-  - "design"
-  - "games"
-  - "software-development"
+    - 'design'
+    - 'games'
+    - 'software-development'
 ---
 
 Do you like playing games with other people? If so, you might often wonder _what_ to play while looking at huge lists of games in your library or some game shop.

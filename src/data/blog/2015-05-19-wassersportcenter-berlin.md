@@ -1,12 +1,12 @@
 ---
-title: "Wassersportcenter Berlin"
+title: 'Wassersportcenter Berlin'
 date: 2015-05-19
-language: "en"
+language: 'en'
 tags:
-  - "berlin"
-  - "design"
-  - "software-development"
-  - "wordpress"
+    - 'berlin'
+    - 'design'
+    - 'software-development'
+    - 'wordpress'
 ---
 
 Hey, today we (my co-student Lennert and me) published a new website for a water sports center in Berlin! It's simply called [Wassersportcenter Berlin](http://www.wassersportcenter-berlin.de/).

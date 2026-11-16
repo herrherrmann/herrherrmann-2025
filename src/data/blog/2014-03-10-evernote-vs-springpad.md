@@ -1,11 +1,11 @@
 ---
-title: "Evernote vs. Springpad"
+title: 'Evernote vs. Springpad'
 date: 2014-03-10
-language: "de"
+language: 'de'
 tags:
-  - "apps"
-  - "review"
-  - "software"
+    - 'apps'
+    - 'review'
+    - 'software'
 ---
 
 Nunja, besonders lange hat mein Testlauf von Springpad letztlich nicht gedauert, denn schnell musste ich mit großen Bedauern feststellen, dass eine für mich selbstverständliche Desktop-Anwendung bei Springpad gänzlich fehlt! Mit dem Smartphone lassen sich Notizen zwar offline verwalten, allerdings möchte ich das auch weiterhin oft mit dem Laptop tun - außerhalb von Browser und Internetverfügbarkeit.

@@ -1,10 +1,10 @@
 ---
-title: "Lenovo T420S: HDD vs. SSD"
+title: 'Lenovo T420S: HDD vs. SSD'
 date: 2015-01-26
-language: "en"
+language: 'en'
 tags:
-  - "hardware"
-  - "review"
+    - 'hardware'
+    - 'review'
 ---
 
 Yesterday we pimped the laptop of my good friend Nicolas. In order to improve its performance we replaced some hardware components so that the laptop could now access twice as much RAM (4 GB → 8 GB) and boot from an [SSD](https://en.wikipedia.org/wiki/Solid-state_drive) instead of a slow HDD.

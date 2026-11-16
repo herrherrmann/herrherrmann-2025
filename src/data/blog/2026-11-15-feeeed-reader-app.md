@@ -1,10 +1,10 @@
 ---
-title: "feeeed, my new favorite feed reader"
+title: 'feeeed, my new favorite feed reader'
 date: 2026-11-15
-language: "en"
+language: 'en'
 tags:
-  - "everyday"
-  - "recommendations"
+    - 'everyday'
+    - 'recommendations'
 ---
 
 I’ve been using [NetNewsWire](https://netnewswire.com/) as a (RSS) feed reader on my phone for a long time. However, I didn’t really manage to get into a habit of opening it regularly. Instead, I’ve been wasting time with silly sites like Reddit that are becoming increasingly user hostile and stressful to interact with.

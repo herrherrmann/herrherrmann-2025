@@ -1,9 +1,9 @@
 ---
-title: "Mandatory Birthday Post"
+title: 'Mandatory Birthday Post'
 date: 2015-03-07
-language: "en"
+language: 'en'
 tags:
-  - "herrherrmann"
+    - 'herrherrmann'
 ---
 
 Happy birthday, HerrHerrmann (this site)!

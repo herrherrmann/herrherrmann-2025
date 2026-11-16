@@ -1,29 +1,27 @@
 ---
 interface MenuItem {
-    url: string
-    title: string
+    url: string;
+    title: string;
 }
 
 interface Props {
-    navLabel: string
-    menuItems: MenuItem[]
+    navLabel: string;
+    menuItems: MenuItem[];
 }
 
-const { pathname } = Astro.url
-const { navLabel, menuItems } = Astro.props
+const { pathname } = Astro.url;
+const { navLabel, menuItems } = Astro.props;
 ---
 
 <nav aria-label={navLabel}>
     <ul class="menu">
-        {
-            menuItems.map((menuItem) => (
-                <li>
-                    <a href={menuItem.url} class:list={['menu-item', { active: menuItem.url === pathname }]}>
-                        {menuItem.title}
-                    </a>
-                </li>
-            ))
-        }
+        {menuItems.map((menuItem) => (
+            <li>
+                <a href={menuItem.url} class:list={['menu-item', { active: menuItem.url === pathname }]}>
+                    {menuItem.title}
+                </a>
+            </li>
+        ))}
     </ul>
 </nav>
 

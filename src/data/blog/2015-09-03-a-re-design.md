@@ -1,12 +1,12 @@
 ---
-title: "A re-design."
+title: 'A re-design.'
 date: 2015-09-03
-language: "en"
+language: 'en'
 tags:
-  - "design"
-  - "herrherrmann"
-  - "web"
-  - "wordpress"
+    - 'design'
+    - 'herrherrmann'
+    - 'web'
+    - 'wordpress'
 ---
 
 ![Before and now.](images/herrherrmann-v7-v8.png)

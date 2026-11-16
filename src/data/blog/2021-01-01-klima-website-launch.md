@@ -1,12 +1,12 @@
 ---
-title: "Klima.com is live! Here are some learnings."
+title: 'Klima.com is live! Here are some learnings.'
 date: 2021-01-01
-language: "en"
+language: 'en'
 tags:
-  - "javascript"
-  - "react"
-  - "software-development"
-  - "web"
+    - 'javascript'
+    - 'react'
+    - 'software-development'
+    - 'web'
 ---
 
 We already launched in December last year but I didn’t blog about it, so here’s a belated celebration: [Klima.com](https://klima.com/) is live! It’s a website that Jonas, co-founder and CPO of Klima, designed and I had the pleasure of implementing. It accompanies the launch of the Klima apps on iOS and Android and provides more information about our product, the company behind it, and general climate news.

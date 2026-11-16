@@ -1,9 +1,9 @@
 ---
-title: "Changelog basti 1.0.4"
+title: 'Changelog basti 1.0.4'
 date: 2014-03-02
-language: "de"
+language: 'de'
 tags:
-  - "everyday"
+    - 'everyday'
 ---
 
 **2014-03-02 Changelog for Version 1.0.4:**

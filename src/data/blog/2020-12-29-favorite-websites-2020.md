@@ -1,12 +1,12 @@
 ---
-title: "My favorite websites of 2020"
+title: 'My favorite websites of 2020'
 date: 2020-12-29
-language: "en"
+language: 'en'
 tags:
-  - "design"
-  - "everyday"
-  - "recommendations"
-  - "web"
+    - 'design'
+    - 'everyday'
+    - 'recommendations'
+    - 'web'
 ---
 
 ![](images/favorite-websites-2020.png)

@@ -1,10 +1,10 @@
 ---
-title: "A Special Request…"
+title: 'A Special Request…'
 date: 2015-02-25
-language: "en"
+language: 'en'
 tags:
-  - "everyday"
-  - "herrherrmann"
+    - 'everyday'
+    - 'herrherrmann'
 ---
 
 A few days ago I received the following message:

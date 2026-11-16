@@ -1,12 +1,12 @@
 ---
-title: "Notizen in digital"
+title: 'Notizen in digital'
 date: 2014-03-01
-language: "de"
+language: 'de'
 tags:
-  - "apps"
-  - "everyday"
-  - "review"
-  - "software"
+    - 'apps'
+    - 'everyday'
+    - 'review'
+    - 'software'
 ---
 
 Ich mag Notizen und To-Do-Listen! Die beiden Methoden helfen mir, viele Aufgaben gleichzeitig zu verwalten, zu priorisieren und motiviert zu bleiben (offenbar streiche ich gerne abgearbeitete Stichpunkte durch).

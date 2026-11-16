@@ -1,77 +1,77 @@
-import { defineCollection } from "astro:content";
-import { z } from "astro/zod";
-import { glob } from "astro/loaders";
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
+import { glob } from 'astro/loaders';
 
 const blog = defineCollection({
-  loader: glob({
-    pattern: "**/*.md",
-    base: "./src/data/blog",
-  }),
-  schema: ({ image }) =>
-    z.object({
-      title: z.string(),
-      date: z.coerce.date(),
-      coverImage: image().optional(),
-      coverImageAlt: z.string().optional(),
-      ogImage: image().optional(),
-      language: z.enum(["de", "en"]),
-      tags: z.array(
-        z.enum([
-          "ableton",
-          "accessibility",
-          "android",
-          "angularjs",
-          "apps",
-          "berlin",
-          "book",
-          "concert",
-          "design",
-          "editors",
-          "event",
-          "everyday",
-          "extension",
-          "frankfurt",
-          "free",
-          "games",
-          "hardware",
-          "herrherrmann",
-          "javascript",
-          "music",
-          "open-source",
-          "react",
-          "recommendations",
-          "review",
-          "school",
-          "software",
-          "software-development",
-          "theater",
-          "translation",
-          "web",
-          "wordpress",
-        ]),
-      ),
+    loader: glob({
+        pattern: '**/*.md',
+        base: './src/data/blog',
     }),
+    schema: ({ image }) =>
+        z.object({
+            title: z.string(),
+            date: z.coerce.date(),
+            coverImage: image().optional(),
+            coverImageAlt: z.string().optional(),
+            ogImage: image().optional(),
+            language: z.enum(['de', 'en']),
+            tags: z.array(
+                z.enum([
+                    'ableton',
+                    'accessibility',
+                    'android',
+                    'angularjs',
+                    'apps',
+                    'berlin',
+                    'book',
+                    'concert',
+                    'design',
+                    'editors',
+                    'event',
+                    'everyday',
+                    'extension',
+                    'frankfurt',
+                    'free',
+                    'games',
+                    'hardware',
+                    'herrherrmann',
+                    'javascript',
+                    'music',
+                    'open-source',
+                    'react',
+                    'recommendations',
+                    'review',
+                    'school',
+                    'software',
+                    'software-development',
+                    'theater',
+                    'translation',
+                    'web',
+                    'wordpress',
+                ]),
+            ),
+        }),
 });
 
 const projects = defineCollection({
-  loader: glob({
-    pattern: "**/*.md",
-    base: "./src/data/projects",
-  }),
-  schema: () =>
-    z.object({
-      title: z.string(),
-      description: z.string(),
-      category: z.enum(["software", "website"]),
-      status: z.enum(["active", "inactive"]),
-      url: z.url().optional(),
-      date: z.coerce.date(),
-      emoji: z.string(),
-      color: z.string(),
+    loader: glob({
+        pattern: '**/*.md',
+        base: './src/data/projects',
     }),
+    schema: () =>
+        z.object({
+            title: z.string(),
+            description: z.string(),
+            category: z.enum(['software', 'website']),
+            status: z.enum(['active', 'inactive']),
+            url: z.url().optional(),
+            date: z.coerce.date(),
+            emoji: z.string(),
+            color: z.string(),
+        }),
 });
 
 export const collections = {
-  blog,
-  projects,
+    blog,
+    projects,
 };

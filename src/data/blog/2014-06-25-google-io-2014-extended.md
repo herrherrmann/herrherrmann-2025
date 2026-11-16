@@ -1,12 +1,12 @@
 ---
-title: "Google I/O 2014 Extended"
+title: 'Google I/O 2014 Extended'
 date: 2014-06-25
-language: "de"
+language: 'de'
 tags:
-  - "apps"
-  - "event"
-  - "frankfurt"
-  - "software-development"
+    - 'apps'
+    - 'event'
+    - 'frankfurt'
+    - 'software-development'
 ---
 
 Heute eröffnete Google seine Entwicklermesse [I/O 2014](https://events.google.com/io) mit einer zweieinhalbstündigen Keynote, welche weltweit in viele Landen übertragen wurde. So fand ich mich auch mit vielen anderen Interessierten im Frankfurter Silvertower meines aktuellen Arbeitgebers DB Systel ein, um die Keynoteübertragung live mitzuverfolgen. Das Event an sich ist schon eine super Idee und bietet eine gute Plattform zum Austausch und gemeinsamen "rumgeeken".

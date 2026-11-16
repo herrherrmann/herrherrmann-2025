@@ -1,12 +1,12 @@
 ---
-title: "React mini charts"
+title: 'React mini charts'
 date: 2023-02-22
-language: "en"
+language: 'en'
 tags:
-  - "javascript"
-  - "open-source"
-  - "react"
-  - "software-development"
+    - 'javascript'
+    - 'open-source'
+    - 'react'
+    - 'software-development'
 ---
 
 A few days ago, I published my first npm package: [react-mini-charts](https://www.npmjs.com/package/react-mini-charts)!

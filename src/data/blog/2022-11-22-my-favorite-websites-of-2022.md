@@ -1,13 +1,13 @@
 ---
-title: "My favorite websites of 2022"
+title: 'My favorite websites of 2022'
 date: 2022-11-22
-language: "en"
+language: 'en'
 tags:
-  - "design"
-  - "everyday"
-  - "recommendations"
-  - "web"
-coverImage: "images/Favorite-websites-of-2022.png"
+    - 'design'
+    - 'everyday'
+    - 'recommendations'
+    - 'web'
+coverImage: 'images/Favorite-websites-of-2022.png'
 ---
 
 Here's another roundup of my favorite websites that I (re-)discovered in the recent months. As in the [last post](/favorite-websites-2020/), all of these pages are special to me because of their creative design and/or great content. If this year’s roundup had a theme, it would probably be “**bold”**.

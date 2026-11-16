@@ -1,12 +1,12 @@
 ---
-title: "Tech Talks"
-description: "My involvement in tech talks during meetups, conferences, etc."
-category: "software"
-status: "active"
+title: 'Tech Talks'
+description: 'My involvement in tech talks during meetups, conferences, etc.'
+category: 'software'
+status: 'active'
 url: https://slides.com/herrherrmann
 date: 2017-05-25
 emoji: 👨🏻‍🏫
-color: "#d13820"
+color: '#d13820'
 ---
 
 Tech talks are a great way to share knowledge and get into exchanges with other developers. I love giving talks, and have been doing that at TU Berlin, JSCraftCamp (München), JSUnconf (Hamburg), BerlinJS, Berlin Hack and Tell, and other occasions.

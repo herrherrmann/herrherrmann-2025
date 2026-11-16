@@ -1,13 +1,13 @@
 ---
-title: "Migrating 1 terabyte of files from OneDrive to Nextcloud"
+title: 'Migrating 1 terabyte of files from OneDrive to Nextcloud'
 date: 2022-11-17
-language: "en"
+language: 'en'
 tags:
-  - "open-source"
-  - "recommendations"
-  - "review"
-  - "software"
-coverImage: "images/onedrive-to-nextcloud.jpg"
+    - 'open-source'
+    - 'recommendations'
+    - 'review'
+    - 'software'
+coverImage: 'images/onedrive-to-nextcloud.jpg'
 ---
 
 This post documents my journey to find a cloud storage provider that is better than Microsoft OneDrive and migrating all my cloud files there.

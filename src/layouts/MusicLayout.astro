@@ -1,7 +1,7 @@
 ---
-import H1 from '../components/H1.astro'
-import SubMenu from '../components/SubMenu.astro'
-import Layout from './Layout.astro'
+import H1 from '../components/H1.astro';
+import SubMenu from '../components/SubMenu.astro';
+import Layout from './Layout.astro';
 
 const menuItems = [
     {
@@ -20,10 +20,10 @@ const menuItems = [
         title: 'mentizid',
         url: '/music/mentizid/',
     },
-]
+];
 
-const { pathname } = Astro.url
-const currentPage = menuItems.find((menuItem) => menuItem.url === pathname)!
+const { pathname } = Astro.url;
+const currentPage = menuItems.find((menuItem) => menuItem.url === pathname)!;
 ---
 
 <Layout pageTitle={`Music / ${currentPage.title}`}>

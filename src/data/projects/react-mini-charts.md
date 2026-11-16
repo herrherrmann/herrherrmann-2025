@@ -1,12 +1,12 @@
 ---
-title: "React Mini Charts"
-description: "Collection of tiny chart components for React"
-category: "software"
-status: "active"
+title: 'React Mini Charts'
+description: 'Collection of tiny chart components for React'
+category: 'software'
+status: 'active'
 url: https://github.com/herrherrmann/react-mini-charts
 date: 2023-02-22
 emoji: 📊
-color: "#adfc92"
+color: '#adfc92'
 ---
 
 A collection of tiny chart components for React, available via [npm](https://www.npmjs.com/package/react-mini-charts). 📊

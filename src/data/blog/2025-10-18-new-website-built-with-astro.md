@@ -1,12 +1,12 @@
 ---
-title: "New website, built with Astro"
+title: 'New website, built with Astro'
 date: 2025-10-18
-language: "en"
+language: 'en'
 tags:
-  - "software-development"
-  - "design"
-  - "herrherrmann"
-  - "web"
+    - 'software-development'
+    - 'design'
+    - 'herrherrmann'
+    - 'web'
 ---
 
 It’s that time again … I’ve redesigned my website and launched it today!

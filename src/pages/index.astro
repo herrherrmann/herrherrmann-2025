@@ -1,15 +1,15 @@
 ---
-import { Image } from 'astro:assets'
-import { getCollection } from 'astro:content'
-import BlogList from '../components/BlogList.astro'
-import ButtonLink from '../components/ButtonLink.astro'
-import Spacer from '../components/Spacer.astro'
-import introImage from '../data/photos/intros/intro-forest.png'
-import Layout from '../layouts/Layout.astro'
-import { sortBlogPosts } from '../services/date'
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BlogList from '../components/BlogList.astro';
+import ButtonLink from '../components/ButtonLink.astro';
+import Spacer from '../components/Spacer.astro';
+import introImage from '../data/photos/intros/intro-forest.png';
+import Layout from '../layouts/Layout.astro';
+import { sortBlogPosts } from '../services/date';
 
-const posts = sortBlogPosts(await getCollection('blog'))
-const recentPosts = posts.slice(0, 5)
+const posts = sortBlogPosts(await getCollection('blog'));
+const recentPosts = posts.slice(0, 5);
 ---
 
 <Layout

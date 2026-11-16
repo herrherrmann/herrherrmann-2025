@@ -1,12 +1,12 @@
 ---
 title: 'Some thoughts on "Maintaining Creativity"'
 date: 2017-10-19
-language: "en"
+language: 'en'
 tags:
-  - "book"
-  - "design"
-  - "review"
-  - "software-development"
+    - 'book'
+    - 'design'
+    - 'review'
+    - 'software-development'
 ---
 
 I recently read "_Maintaining Creativity / Psychology for Designers_" by Frank Berzbach (currently not yet available in English but in [German](https://www.amazon.de/Kreativit%C3%A4t-aushalten-Psychologie-f%C3%BCr-Designer/dp/3874397866) and some other languages) and it helped me think about and discover many insights about the topics creativity, productivity and different work environments. I want to share my main insights here.

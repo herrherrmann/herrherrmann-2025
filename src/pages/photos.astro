@@ -1,42 +1,43 @@
 ---
-import H1 from '../components/H1.astro'
-import PhotoGallery, { type PhotoGalleryImage } from '../components/PhotoGallery.astro'
-import barcelona from '../data/photos/barcelona.jpg'
-import berlin from '../data/photos/berlin.jpg'
-import forest from '../data/photos/forest.jpg'
-import guatemala from '../data/photos/guatemala.jpg'
-import takao from '../data/photos/takao.jpg'
-import waves from '../data/photos/waves.jpg'
-import Layout from '../layouts/Layout.astro'
-import { toPhotoGalleryImage } from '../services/images'
+import H1 from '../components/H1.astro';
+import PhotoGallery, { type PhotoGalleryImage } from '../components/PhotoGallery.astro';
+import barcelona from '../data/photos/barcelona.jpg';
+import berlin from '../data/photos/berlin.jpg';
+import forest from '../data/photos/forest.jpg';
+import guatemala from '../data/photos/guatemala.jpg';
+import takao from '../data/photos/takao.jpg';
+import waves from '../data/photos/waves.jpg';
+import Layout from '../layouts/Layout.astro';
+import { toPhotoGalleryImage } from '../services/images';
 
 const images: PhotoGalleryImage[] = [
     toPhotoGalleryImage(
         barcelona,
-        'A building with balconies and some plants peeking from the top, and a blue sky in the background.'
+        'A building with balconies and some plants peeking from the top, and a blue sky in the background.',
     ),
     toPhotoGalleryImage(
         berlin,
-        'A high view of a roundabout street with some cars on it. The background shows Berlin’s skyline with the TV tower and some other buildings.'
+        'A high view of a roundabout street with some cars on it. The background shows Berlin’s skyline with the TV tower and some other buildings.',
     ),
     toPhotoGalleryImage(
         takao,
-        'A mountain scene with some peaks peeking through dense fog. The peaks are filled with pointy trees.'
+        'A mountain scene with some peaks peeking through dense fog. The peaks are filled with pointy trees.',
     ),
     toPhotoGalleryImage(waves, 'A river splashing through some coarse rocks.'),
     toPhotoGalleryImage(guatemala, 'Some older buildings in front of a new fancy-looking higher building.'),
     toPhotoGalleryImage(
         forest,
-        'A dramatic angle in a forest full of leaf-less trees and some mossy bits on the ground.'
+        'A dramatic angle in a forest full of leaf-less trees and some mossy bits on the ground.',
     ),
-]
+];
 ---
 
 <Layout pageTitle="Photos">
     <H1>Photos</H1>
     <p>
-        I love taking pictures during trips, concerts or just on a random stroll through the city.<br />You can find a
-        selection of my photos on <a href="https://unsplash.com/@herrherrmann">Unsplash</a>.
+        I love taking pictures during trips, concerts or just on a random stroll through the city.
+        <br />
+        You can find a selection of my photos on <a href="https://unsplash.com/@herrherrmann">Unsplash</a>.
     </p>
     <PhotoGallery images={images} />
     <h2>Equipment</h2>

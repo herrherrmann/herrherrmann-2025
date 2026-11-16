@@ -1,11 +1,11 @@
 ---
-title: "Awesome Multiplayer Games was broken, but I fixed it"
+title: 'Awesome Multiplayer Games was broken, but I fixed it'
 date: 2026-02-15
-language: "en"
+language: 'en'
 tags:
-  - "software-development"
-  - "javascript"
-  - "web"
+    - 'software-development'
+    - 'javascript'
+    - 'web'
 ---
 
 My little side project [Awesome Multiplayer Games](https://multiplayer.page/) was quite broken recently! Games were no longer showing up properly on the website (missing metadata and cover images). It was time to take a look at fixing it, because people have been adding new games to the [source list of games](https://github.com/herrherrmann/awesome-multiplayer-games/), and I want those additions to show up properly on the website. I remembered that I haven’t taken a look at the backend code for quite a while, and was also having trouble with the free service that was pausing or even shutting down my database every now and then. So, I was expecting to find some infrastructure issues that were causing the problems. Fortunately, the fix was much easier than doing any big migrations or updates, or starting to pay more for the hosting services.

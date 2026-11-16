@@ -1,9 +1,9 @@
 ---
-title: "Tips for web development applicants"
+title: 'Tips for web development applicants'
 date: 2021-10-17
-language: "en"
+language: 'en'
 tags:
-  - "software-development"
+    - 'software-development'
 ---
 
 At [Klima](https://klima.com), we are currently hiring a junior frontend web developer, and I was tasked with finding the right person to join the team. Usually, a web dev position at a startup in Berlin attracts many people, so I have the privilege of picking from a large amount of applicants. While reading these applications, I noticed some recurring pitfalls that people fell into, so I want to highlight some of them here in the hopes of “future generations” learning from it.

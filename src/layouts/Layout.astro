@@ -1,27 +1,27 @@
 ---
-import '@fontsource-variable/chivo'
-import '@fontsource-variable/chivo/wght-italic.css'
-import '@fontsource/space-mono/400.css'
-import '@fontsource/space-mono/700.css'
-import type { CollectionEntry } from 'astro:content'
-import H1 from '../components/H1.astro'
-import Footer from '../components/SiteLayout/Footer.astro'
-import GlobalStyles from '../components/SiteLayout/GlobalStyles.astro'
-import Header from '../components/SiteLayout/Header.astro'
-import TrackingScript from '../components/SiteLayout/TrackingScript.astro'
+import '@fontsource-variable/chivo';
+import '@fontsource-variable/chivo/wght-italic.css';
+import '@fontsource/space-mono/400.css';
+import '@fontsource/space-mono/700.css';
+import type { CollectionEntry } from 'astro:content';
+import H1 from '../components/H1.astro';
+import Footer from '../components/SiteLayout/Footer.astro';
+import GlobalStyles from '../components/SiteLayout/GlobalStyles.astro';
+import Header from '../components/SiteLayout/Header.astro';
+import TrackingScript from '../components/SiteLayout/TrackingScript.astro';
 
 interface Props {
-    pageTitle: string
-    pageDescription?: string
-    ogImage?: string
-    ogType?: 'website' | 'article'
+    pageTitle: string;
+    pageDescription?: string;
+    ogImage?: string;
+    ogType?: 'website' | 'article';
     /** e.g. "2024-12-01T09:33:20+00:00" */
-    ogArticlePublishedTime?: string
+    ogArticlePublishedTime?: string;
     /** Frontmatter coming from Markdown pages. */
     frontmatter?: {
-        title: string
-    }
-    postData?: CollectionEntry<'blog'>['data']
+        title: string;
+    };
+    postData?: CollectionEntry<'blog'>['data'];
 }
 
 const {
@@ -32,13 +32,13 @@ const {
     ogArticlePublishedTime,
     frontmatter,
     postData,
-} = Astro.props
-const siteName = 'Herr Herrmann'
-const pageTitleWithFallback = frontmatter?.title || postData?.title || pageTitle
-const fullTitle = [pageTitleWithFallback, siteName].filter(Boolean).join(' – ')
-const siteLanguage = 'en'
+} = Astro.props;
+const siteName = 'Herr Herrmann';
+const pageTitleWithFallback = frontmatter?.title || postData?.title || pageTitle;
+const fullTitle = [pageTitleWithFallback, siteName].filter(Boolean).join(' – ');
+const siteLanguage = 'en';
 
-const isProd = import.meta.env.PROD
+const isProd = import.meta.env.PROD;
 ---
 
 <!doctype html>

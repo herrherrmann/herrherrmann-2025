@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Layout.astro
-title: "Imprint"
+title: 'Imprint'
 ---
 
 ## Responsible for content

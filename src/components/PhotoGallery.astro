@@ -1,38 +1,36 @@
 ---
-import type { ImageMetadata } from 'astro'
-import { Carousel } from 'astro-carousel'
-import type { ComponentProps } from 'astro/types'
-import { Image } from 'astro:assets'
+import type { ImageMetadata } from 'astro';
+import { Carousel } from 'astro-carousel';
+import type { ComponentProps } from 'astro/types';
+import { Image } from 'astro:assets';
 
 export type PhotoGalleryImage = ComponentProps<typeof Carousel>['images'][number] & {
-    src: ImageMetadata
-}
+    src: ImageMetadata;
+};
 
 interface Props {
-    images: PhotoGalleryImage[]
+    images: PhotoGalleryImage[];
 }
 
-const { images } = Astro.props
+const { images } = Astro.props;
 ---
 
 <ul id="carouselTargetList">
-    {
-        images.map((image, index) => (
-            <li>
-                <a href={`/?image=${index}`} data-carousel-index={index}>
-                    <Image
-                        src={image.src}
-                        alt={image.alt}
-                        layout="constrained"
-                        format={image.format}
-                        width={image.width || 250}
-                        height={image.height || 250}
-                        loading="eager"
-                    />
-                </a>
-            </li>
-        ))
-    }
+    {images.map((image, index) => (
+        <li>
+            <a href={`/?image=${index}`} data-carousel-index={index}>
+                <Image
+                    src={image.src}
+                    alt={image.alt}
+                    layout="constrained"
+                    format={image.format}
+                    width={image.width || 250}
+                    height={image.height || 250}
+                    loading="eager"
+                />
+            </a>
+        </li>
+    ))}
 </ul>
 <Carousel images={images} color="var(--text-color)" />
 

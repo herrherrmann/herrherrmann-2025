@@ -1,11 +1,11 @@
 ---
-title: "Awesome web-based tools."
+title: 'Awesome web-based tools.'
 date: 2015-08-29
-language: "en"
+language: 'en'
 tags:
-  - "everyday"
-  - "software"
-  - "web"
+    - 'everyday'
+    - 'software'
+    - 'web'
 ---
 
 What's great nowadays is that you can basically run your computer as a thin client and do a lot of work and entertainment entirely web-based. You've probably already been doing it for a while with emails, documents (Google Drive or Office Web), music, games and more. Why not extend those use cases to more complex areas like graphics editing and music creation? Some tools are surprisingly feature-rich and performant. Here are some examples:

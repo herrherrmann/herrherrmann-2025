@@ -1,10 +1,10 @@
 ---
-import { getCollection, render } from 'astro:content'
-import H1 from '../../components/H1.astro'
-import Layout from '../../layouts/Layout.astro'
+import { getCollection, render } from 'astro:content';
+import H1 from '../../components/H1.astro';
+import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
-    const projects = await getCollection('projects')
+    const projects = await getCollection('projects');
     return projects.map((project) => ({
         params: {
             id: project.id,
@@ -12,11 +12,11 @@ export async function getStaticPaths() {
         props: {
             project,
         },
-    }))
+    }));
 }
 
-const { project } = Astro.props
-const { Content } = await render(project)
+const { project } = Astro.props;
+const { Content } = await render(project);
 ---
 
 <Layout pageTitle={project.data.title}>

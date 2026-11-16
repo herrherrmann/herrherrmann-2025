@@ -1,12 +1,12 @@
 ---
-title: "Waning Sun: Our first gig"
+title: 'Waning Sun: Our first gig'
 date: 2026-08-07
-language: "en"
+language: 'en'
 tags:
-  - "music"
-  - "concert"
-  - "event"
-ogImage: "images/waning-sun/waning-sun-live-1.jpg"
+    - 'music'
+    - 'concert'
+    - 'event'
+ogImage: 'images/waning-sun/waning-sun-live-1.jpg'
 ---
 
 I missed playing noisy and epic music. So, roughly two years ago I joined a new band project: Waning Sun – my first (post-)metal project! And we played our first gig last weekend at the lovely Funkenflug Festival (in Funkenhagen, Brandenburg). We had a blast!
