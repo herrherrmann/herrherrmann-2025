@@ -32,23 +32,20 @@ const menuItems: MenuItem[] = [
         </a>
         <nav aria-label="Main menu">
             <ul class="menu">
-                {menuItems.map((menuItem) => (
-                    <li>
-                        <a
-                            href={menuItem.url}
-                            class:list={[
-                                'menu-item',
-                                {
-                                    active: menuItem.urlMatch
-                                        ? menuItem.urlMatch.exec(pathname)
-                                        : menuItem.url === pathname,
-                                },
-                            ]}
-                        >
-                            {menuItem.title}
-                        </a>
-                    </li>
-                ))}
+                {menuItems.map((menuItem) => {
+                    const isActive = menuItem.urlMatch ? menuItem.urlMatch.test(pathname) : menuItem.url === pathname;
+                    return (
+                        <li>
+                            <a
+                                href={menuItem.url}
+                                class:list={['menu-item', { active: isActive }]}
+                                aria-current={isActive ? 'page' : undefined}
+                            >
+                                {menuItem.title}
+                            </a>
+                        </li>
+                    );
+                })}
             </ul>
         </nav>
     </div>
