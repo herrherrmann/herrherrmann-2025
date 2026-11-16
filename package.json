@@ -11,28 +11,29 @@
     "check": "astro check"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.10",
-    "@astrojs/mdx": "7.0.5",
-    "@astrojs/rss": "^4.0.19",
-    "@astrojs/sitemap": "^3.7.3",
-    "@astrojs/ts-plugin": "^1.10.10",
-    "@fontsource-variable/chivo": "^5.3.0",
-    "@fontsource/space-mono": "^5.3.0",
-    "astro": "^7.2.0",
-    "astro-carousel": "^4.0.1",
-    "posthog-js": "^1.414.0",
-    "typescript": "^6.0.3"
+    "@astrojs/check": "0.9.12",
+    "@astrojs/markdown-remark": "7.3.9",
+    "@astrojs/mdx": "8.1.6",
+    "@astrojs/rss": "4.0.19",
+    "@astrojs/sitemap": "3.7.5",
+    "@astrojs/ts-plugin": "1.11.0",
+    "@fontsource-variable/chivo": "5.3.0",
+    "@fontsource/space-mono": "5.3.0",
+    "astro": "7.4.12",
+    "astro-carousel": "4.0.1",
+    "posthog-js": "1.450.0",
+    "typescript": "6.0.3"
   },
   "overrides": {
-    "astro": "^7.2.0"
+    "astro": "7.4.12"
   },
   "engines": {
     "npm": "11.12.1",
     "node": "24.15.0"
   },
   "devDependencies": {
-    "oxfmt": "0.77.0",
-    "oxlint": "1.92.0",
-    "sass-embedded": "1.108.1"
+    "oxfmt": "0.79.0",
+    "oxlint": "1.94.0",
+    "sass-embedded": "1.108.2"
   }
 }
