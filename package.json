@@ -7,7 +7,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "oxfmt",
+    "format": "prettier . --write",
     "check": "astro check"
   },
   "dependencies": {
@@ -32,8 +32,8 @@
     "node": "24.15.0"
   },
   "devDependencies": {
-    "oxfmt": "0.79.0",
-    "oxlint": "1.94.0",
+    "prettier": "3.10.1",
+    "prettier-plugin-astro": "1.1.2",
     "sass-embedded": "1.108.2"
   }
 }
